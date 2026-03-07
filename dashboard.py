@@ -117,7 +117,7 @@ with tab1:
         legend=dict(orientation="h", y=1.05),
         margin=dict(l=0, r=0, t=30, b=0),
     )
-    st.plotly_chart(fig, use_container_width=True)
+    st.plotly_chart(fig, width='stretch')
 
 # ── TAB 2: Signal breakdown ───────────────────────────────────────────────────
 with tab2:
@@ -148,16 +148,15 @@ with tab2:
             annotations=[dict(text=signal_label, x=0.5, y=0.5,
                               font_size=16, showarrow=False)]
         )
-        st.plotly_chart(fig_pie, use_container_width=True)
+        st.plotly_chart(fig_pie, width='stretch')
 
     with col_b:
         # Signal counts per category
         cat_summary = sig_df.groupby(["category", "value"]).size().unstack(fill_value=0)
-        cat_summary.columns = {-1: "Bullish", 0: "Neutral", 1: "Bearish"}.get
         cat_summary = cat_summary.rename(columns={-1: "Bullish", 0: "Neutral", 1: "Bearish"})
         st.dataframe(
             cat_summary.style.background_gradient(cmap="RdYlGn", axis=None),
-            use_container_width=True
+            width='stretch'
         )
 
     st.divider()
@@ -185,7 +184,7 @@ with tab2:
                 margin=dict(l=0, r=60, t=10, b=0),
                 showlegend=False,
             )
-            st.plotly_chart(fig_bar, use_container_width=True)
+            st.plotly_chart(fig_bar, width='stretch')
 
 # ── TAB 3: Combo score history ────────────────────────────────────────────────
 with tab3:
@@ -227,7 +226,7 @@ with tab3:
     fig2.update_layout(height=480, hovermode="x unified",
                        margin=dict(l=0, r=0, t=20, b=0),
                        legend=dict(orientation="h", y=1.05))
-    st.plotly_chart(fig2, use_container_width=True)
+    st.plotly_chart(fig2, width='stretch')
 
 # ── TAB 4: Performance ────────────────────────────────────────────────────────
 with tab4:
@@ -279,7 +278,7 @@ with tab4:
         margin=dict(l=0, r=0, t=20, b=0),
         legend=dict(orientation="h", y=1.05),
     )
-    st.plotly_chart(fig3, use_container_width=True)
+    st.plotly_chart(fig3, width='stretch')
 
     # Styled table
     def _fmt(v):
@@ -293,7 +292,7 @@ with tab4:
         styled[col] = styled[col].apply(_fmt)
     st.dataframe(yearly_df.style.format("{:+.1%}").background_gradient(
         cmap="RdYlGn", vmin=-0.7, vmax=2.0
-    ), use_container_width=True)
+    ), width='stretch')
 
 # ── Footer ────────────────────────────────────────────────────────────────────
 st.divider()
