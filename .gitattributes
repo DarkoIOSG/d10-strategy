@@ -1,0 +1,2 @@
+data/*.csv merge=ours
+data/*.json merge=ours
