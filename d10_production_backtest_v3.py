@@ -205,7 +205,7 @@ def compute_new_macro_signals(close, sp500):
         rm = s.rolling(365, min_periods=180).median()
         rs = s.rolling(365, min_periods=180).std()
         z = (s - rm) / rs.replace(0, np.nan)
-        z = z.reindex(idx)
+        z = z.reindex(idx, fill_value=0)
         disc.loc[z > 0.5, col] = 1
         disc.loc[z < -0.5, col] = -1
         disc[col] = disc[col].reindex(idx).fillna(0)
