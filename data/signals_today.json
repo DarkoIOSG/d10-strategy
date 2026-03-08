@@ -1,8 +1,8 @@
 {
-  "date": "2026-03-07",
-  "combo_score": -0.29557201646090536,
+  "date": "2026-03-08",
+  "combo_score": -0.3552592592592592,
   "exposure": 0.9,
-  "btc_price": 67456.328125,
+  "btc_price": 67263.2734375,
   "signals": {
     "MVRV": {
       "value": -1,
@@ -25,7 +25,7 @@
       "category": "On-chain"
     },
     "NVT": {
-      "value": 0,
+      "value": 1,
       "category": "On-chain"
     },
     "NVM": {
@@ -33,7 +33,7 @@
       "category": "On-chain"
     },
     "S2F_Dev": {
-      "value": 0,
+      "value": -1,
       "category": "On-chain"
     },
     "Exch_Reserve": {
@@ -49,7 +49,7 @@
       "category": "On-chain"
     },
     "MPI": {
-      "value": 0,
+      "value": -1,
       "category": "On-chain"
     },
     "Puell": {
@@ -61,7 +61,7 @@
       "category": "On-chain"
     },
     "Dormancy": {
-      "value": 0,
+      "value": -1,
       "category": "On-chain"
     },
     "Lev_Ratio": {
@@ -93,7 +93,7 @@
       "category": "On-chain"
     },
     "RealVol_30": {
-      "value": 1,
+      "value": 0,
       "category": "On-chain"
     },
     "RealVol_90": {
@@ -277,7 +277,7 @@
       "category": "Macro"
     },
     "BTC_vs_SP500_30d": {
-      "value": 1,
+      "value": 0,
       "category": "Macro"
     },
     "BTC_vs_SP500_180d": {
@@ -289,7 +289,7 @@
       "category": "Macro"
     },
     "BTC_vs_Gold_30d": {
-      "value": 1,
+      "value": 0,
       "category": "Macro"
     },
     "BTC_vs_Gold_180d": {
@@ -298,8 +298,8 @@
     }
   },
   "signal_counts": {
-    "bullish": 37,
-    "bearish": 13,
-    "neutral": 23
+    "bullish": 40,
+    "bearish": 11,
+    "neutral": 22
   }
 }
