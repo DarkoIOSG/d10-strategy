@@ -34,10 +34,15 @@ def load_data():
         today_data = json.load(f)
     with open(os.path.join(DATA_DIR, "metrics.json")) as f:
         metrics = json.load(f)
-    return history, today_data, metrics
+    sig_history_path = os.path.join(DATA_DIR, "signals_history.csv")
+    sig_history = (
+        pd.read_csv(sig_history_path, index_col=0, parse_dates=True)
+        if os.path.exists(sig_history_path) else None
+    )
+    return history, today_data, metrics, sig_history
 
 try:
-    history, today_data, metrics = load_data()
+    history, today_data, metrics, sig_history = load_data()
 except FileNotFoundError:
     st.error("No data found. Run `python d10_daily_score.py` first to generate data files.")
     st.stop()
@@ -76,7 +81,7 @@ with col5:
 st.divider()
 
 # ── Tab layout ────────────────────────────────────────────────────────────────
-tab1, tab2, tab3, tab4 = st.tabs(["Price & Exposure", "Signals Today", "Combo Score", "Performance"])
+tab1, tab2, tab3, tab4, tab5 = st.tabs(["Price & Exposure", "Signals Today", "Combo Score", "Signal Explorer", "Performance"])
 
 # ── TAB 1: BTC Price + Exposure overlay ──────────────────────────────────────
 with tab1:
@@ -228,8 +233,121 @@ with tab3:
                        legend=dict(orientation="h", y=1.05))
     st.plotly_chart(fig2, width='stretch')
 
-# ── TAB 4: Performance ────────────────────────────────────────────────────────
+# ── TAB 4: Signal Explorer ───────────────────────────────────────────────────
 with tab4:
+    st.subheader("Signal Explorer")
+
+    if sig_history is None:
+        st.info("Signal history not available yet. Run `d10_daily_score.py` to generate it.")
+    else:
+        def _category(name):
+            tech = ("MABreak_", "Zscore_", "GapPct_", "SP500_")
+            macro = ("FedBS", "M2_", "RRP_", "FFR_", "CPI_", "PPI_",
+                     "Claims_", "SOFR", "IORB", "NASDAQ", "BTC_vs_", "Gold")
+            if any(name.startswith(p) for p in tech):
+                return "Technical"
+            if any(k in name for k in macro):
+                return "Macro"
+            return "On-chain"
+
+        all_signals = list(sig_history.columns)
+        cats = {s: _category(s) for s in all_signals}
+
+        # Filters
+        f1, f2 = st.columns([1, 3])
+        with f1:
+            cat_filter = st.selectbox("Category", ["All", "On-chain", "Technical", "Macro"])
+        filtered = [s for s in all_signals if cat_filter == "All" or cats[s] == cat_filter]
+        with f2:
+            selected = st.selectbox("Signal", filtered)
+
+        if selected:
+            sig_series = sig_history[selected].reindex(history.index)
+            btc_series = history["btc_price"]
+
+            # ── Stats row ────────────────────────────────────────────
+            total = sig_series.notna().sum()
+            bull  = (sig_series == -1).sum()
+            bear  = (sig_series ==  1).sum()
+            neut  = (sig_series ==  0).sum()
+            current_val = int(sig_series.iloc[-1]) if pd.notna(sig_series.iloc[-1]) else 0
+            current_lbl = {-1: "BULLISH", 0: "NEUTRAL", 1: "BEARISH"}.get(current_val, "-")
+
+            m1, m2, m3, m4 = st.columns(4)
+            m1.metric("Current state", current_lbl)
+            m2.metric("% Bullish", f"{bull/total:.0%}" if total else "-")
+            m3.metric("% Bearish", f"{bear/total:.0%}" if total else "-")
+            m4.metric("% Neutral",  f"{neut/total:.0%}" if total else "-")
+
+            # ── Chart ────────────────────────────────────────────────
+            lookback_s = st.select_slider(
+                "Lookback  ", ["6M", "1Y", "2Y", "All"], value="2Y", key="sig_exp_lb"
+            )
+            days_s = {"6M": 180, "1Y": 365, "2Y": 730, "All": len(history)}
+            df_s = pd.DataFrame({
+                "btc": btc_series, "signal": sig_series
+            }).tail(days_s[lookback_s])
+
+            fig_s = make_subplots(
+                rows=2, cols=1, shared_xaxes=True,
+                row_heights=[0.65, 0.35], vertical_spacing=0.04
+            )
+
+            # BTC price
+            fig_s.add_trace(
+                go.Scatter(x=df_s.index, y=df_s["btc"], name="BTC Price",
+                           line=dict(color="#F7931A", width=2)),
+                row=1, col=1
+            )
+
+            # Signal as colored bar chart
+            colors = df_s["signal"].map({-1: "#00cc96", 0: "#aaaaaa", 1: "#ef553b"}).fillna("#aaaaaa")
+            fig_s.add_trace(
+                go.Bar(
+                    x=df_s.index, y=df_s["signal"],
+                    name="Signal",
+                    marker_color=colors.tolist(),
+                    showlegend=False,
+                ),
+                row=2, col=1
+            )
+            fig_s.add_hline(y=0, line_color="white", line_width=0.5, row=2, col=1)
+
+            fig_s.update_yaxes(title_text="BTC Price", type="log", row=1, col=1)
+            fig_s.update_yaxes(
+                title_text="Signal", tickvals=[-1, 0, 1],
+                ticktext=["Bullish", "Neutral", "Bearish"],
+                range=[-1.5, 1.5], row=2, col=1
+            )
+            fig_s.update_layout(
+                height=500, hovermode="x unified",
+                margin=dict(l=0, r=0, t=20, b=0),
+                legend=dict(orientation="h", y=1.05),
+            )
+            st.plotly_chart(fig_s, width='stretch')
+
+            # ── Forward return analysis ──────────────────────────────
+            st.divider()
+            st.markdown("**Average BTC forward returns when signal was active**")
+            btc_full = history["btc_price"].reindex(sig_history.index)
+            rc1, rc2, rc3 = st.columns(3)
+            for col_w, horizon, label in [(rc1, 30, "30d"), (rc2, 90, "90d"), (rc3, 180, "180d")]:
+                fwd = btc_full.pct_change(horizon).shift(-horizon)
+                bull_ret = fwd[sig_series == -1].mean()
+                bear_ret = fwd[sig_series ==  1].mean()
+                neut_ret = fwd[sig_series ==  0].mean()
+                with col_w:
+                    st.markdown(f"**{label} fwd return**")
+                    st.metric("When bullish", f"{bull_ret:+.1%}" if pd.notna(bull_ret) else "-",
+                              delta_color="normal")
+                    st.metric("When bearish", f"{bear_ret:+.1%}" if pd.notna(bear_ret) else "-",
+                              delta_color="inverse")
+                    st.metric("When neutral", f"{neut_ret:+.1%}" if pd.notna(neut_ret) else "-",
+                              delta_color="off")
+
+
+# ── TAB 5: Performance ────────────────────────────────────────────────────────
+with tab5:
     st.subheader("Backtest Performance")
 
     d10 = metrics["d10"]

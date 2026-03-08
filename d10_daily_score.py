@@ -200,6 +200,12 @@ def main():
         close_eval, pd.Series(1.0, index=close_eval.index), "BTC B&H"
     )
 
+    # ── Save signals_history.csv ─────────────────────────────────
+    sig_hist = disc.loc[v3.EVAL_START:].copy()
+    sig_hist.index.name = "date"
+    sig_hist.to_csv(os.path.join(DATA_DIR, "signals_history.csv"))
+    print(f"  Saved signals_history.csv ({sig_hist.shape})")
+
     # ── Save combo_history.csv ────────────────────────────────────
     history = pd.DataFrame({
         "combo":     combo,
