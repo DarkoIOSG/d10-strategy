@@ -1,8 +1,8 @@
 {
   "date": "2026-03-09",
-  "combo_score": -0.3550617283950617,
-  "exposure": 0.9,
-  "btc_price": 67746.6484375,
+  "combo_score": -0.24537037037037038,
+  "exposure": 0.7,
+  "btc_price": 69221.6171875,
   "signals": {
     "MVRV": {
       "value": -1,
@@ -157,7 +157,7 @@
       "category": "Technical"
     },
     "Zscore_SMA90_daily": {
-      "value": -1,
+      "value": 0,
       "category": "Technical"
     },
     "Zscore_SMA200_daily": {
@@ -177,7 +177,7 @@
       "category": "Technical"
     },
     "Zscore_EMA90_daily": {
-      "value": -1,
+      "value": 0,
       "category": "Technical"
     },
     "Zscore_EMA200_daily": {
@@ -224,82 +224,26 @@
       "value": -1,
       "category": "Technical"
     },
-    "FedBS_vs_90d": {
-      "value": 1,
-      "category": "Macro"
-    },
-    "FedBS_vs_180d": {
-      "value": 1,
-      "category": "Macro"
-    },
-    "FedBS_vs_365d": {
-      "value": 1,
-      "category": "Macro"
-    },
-    "M2_vs_180d": {
+    "FFR_vs_MA365": {
       "value": -1,
       "category": "Macro"
     },
-    "M2_vs_365d": {
-      "value": -1,
-      "category": "Macro"
-    },
-    "RRP_vs_180d": {
+    "SOFR_IORB_Spread_Sign": {
       "value": 0,
       "category": "Macro"
     },
-    "FFR_vs_365d": {
-      "value": 1,
-      "category": "Macro"
-    },
-    "CPI_vs_12m": {
+    "RRP_Trend_90d": {
       "value": -1,
       "category": "Macro"
     },
-    "PPI_vs_6m": {
-      "value": -1,
-      "category": "Macro"
-    },
-    "PPI_vs_12m": {
-      "value": -1,
-      "category": "Macro"
-    },
-    "Claims_vs_12m": {
-      "value": -1,
-      "category": "Macro"
-    },
-    "SOFR_IORB_Spread": {
-      "value": 0,
-      "category": "Macro"
-    },
-    "NASDAQ_180d": {
-      "value": 0,
-      "category": "Macro"
-    },
-    "BTC_vs_SP500_30d": {
-      "value": 0,
-      "category": "Macro"
-    },
-    "BTC_vs_SP500_180d": {
-      "value": -1,
-      "category": "Macro"
-    },
-    "BTC_vs_NASDAQ_180d": {
-      "value": -1,
-      "category": "Macro"
-    },
-    "BTC_vs_Gold_30d": {
-      "value": 0,
-      "category": "Macro"
-    },
-    "BTC_vs_Gold_180d": {
+    "PPI_vs_CPI": {
       "value": -1,
       "category": "Macro"
     }
   },
   "signal_counts": {
-    "bullish": 40,
-    "bearish": 11,
-    "neutral": 22
+    "bullish": 32,
+    "bearish": 7,
+    "neutral": 20
   }
 }
