@@ -49,7 +49,7 @@ except FileNotFoundError:
 
 # ── Header ────────────────────────────────────────────────────────────────────
 st.title("D10 Strategy Dashboard")
-st.caption(f"Last updated: **{today_data['date']}** · 73 Signals · HO Pairs · HO Weights · 2Y+3Y+4Y Ensemble")
+st.caption(f"Last updated: **{today_data['date']}** · 59 Signals · HO Pairs · 2Y+3Y Ensemble")
 
 # ── Top metrics row ───────────────────────────────────────────────────────────
 combo_score = today_data["combo_score"]
