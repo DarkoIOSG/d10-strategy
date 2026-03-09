@@ -313,7 +313,7 @@ def main():
     print(f"  Ensemble:     2Y + 3Y")
     print(f"  Sharpe:       {s:.4f}")
     print(f"  HO Sharpe:    {ho:.4f}")
-    bh_ar = (1 + (1 + close_eval.pct_change().dropna()).prod() - 1) ** (1 / (len(close_eval) / 365.25)) - 1
+    bh_ar = (1 + close_eval.pct_change().dropna()).prod() ** (1 / (len(close_eval) / 365.25)) - 1
     print(f"  Ann Return:   {strat_ar:+.1%} (Strategy) vs {bh_ar:+.1%} (B&H)")
     print(f"  Max Drawdown: {mdd:.1%}")
     print(f"  Avg Exposure: {ae:.1%}")
