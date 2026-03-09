@@ -1,8 +1,8 @@
 {
-  "date": "2026-03-08",
-  "combo_score": -0.3552592592592592,
+  "date": "2026-03-09",
+  "combo_score": -0.3550617283950617,
   "exposure": 0.9,
-  "btc_price": 66993.5078125,
+  "btc_price": 67746.6484375,
   "signals": {
     "MVRV": {
       "value": -1,
@@ -17,7 +17,7 @@
       "category": "On-chain"
     },
     "STH_SOPR": {
-      "value": -1,
+      "value": 0,
       "category": "On-chain"
     },
     "LTH_SOPR": {
@@ -57,7 +57,7 @@
       "category": "On-chain"
     },
     "SOPR_Ratio": {
-      "value": -1,
+      "value": 0,
       "category": "On-chain"
     },
     "Dormancy": {
@@ -73,7 +73,7 @@
       "category": "On-chain"
     },
     "Open_Interest": {
-      "value": 0,
+      "value": -1,
       "category": "On-chain"
     },
     "Coinbase_Prem": {
@@ -89,7 +89,7 @@
       "category": "On-chain"
     },
     "Puell_Proxy": {
-      "value": 0,
+      "value": -1,
       "category": "On-chain"
     },
     "RealVol_30": {
