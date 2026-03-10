@@ -1,8 +1,8 @@
 {
-  "date": "2026-03-09",
-  "combo_score": -0.24537037037037038,
+  "date": "2026-03-10",
+  "combo_score": -0.23842592592592596,
   "exposure": 0.7,
-  "btc_price": 69221.6171875,
+  "btc_price": 71007.8359375,
   "signals": {
     "MVRV": {
       "value": -1,
@@ -25,7 +25,7 @@
       "category": "On-chain"
     },
     "NVT": {
-      "value": 1,
+      "value": 0,
       "category": "On-chain"
     },
     "NVM": {
@@ -41,7 +41,7 @@
       "category": "On-chain"
     },
     "Exch_Netflow": {
-      "value": 0,
+      "value": -1,
       "category": "On-chain"
     },
     "Whale_Ratio": {
@@ -49,7 +49,7 @@
       "category": "On-chain"
     },
     "MPI": {
-      "value": -1,
+      "value": 0,
       "category": "On-chain"
     },
     "Puell": {
@@ -57,15 +57,15 @@
       "category": "On-chain"
     },
     "SOPR_Ratio": {
-      "value": 0,
-      "category": "On-chain"
-    },
-    "Dormancy": {
       "value": -1,
       "category": "On-chain"
     },
-    "Lev_Ratio": {
+    "Dormancy": {
       "value": 0,
+      "category": "On-chain"
+    },
+    "Lev_Ratio": {
+      "value": -1,
       "category": "On-chain"
     },
     "SSR": {
@@ -73,7 +73,7 @@
       "category": "On-chain"
     },
     "Open_Interest": {
-      "value": -1,
+      "value": 0,
       "category": "On-chain"
     },
     "Coinbase_Prem": {
@@ -193,7 +193,7 @@
       "category": "Technical"
     },
     "SP500_SMA_50_200": {
-      "value": 1,
+      "value": -1,
       "category": "Technical"
     },
     "SP500_EMA_50_200": {
@@ -242,8 +242,8 @@
     }
   },
   "signal_counts": {
-    "bullish": 32,
-    "bearish": 7,
-    "neutral": 20
+    "bullish": 33,
+    "bearish": 5,
+    "neutral": 21
   }
 }
