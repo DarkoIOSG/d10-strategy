@@ -1,19 +1,19 @@
 {
-  "date": "2026-03-10",
-  "combo_score": -0.23842592592592596,
+  "date": "2026-03-11",
+  "combo_score": -0.24074074074074076,
   "exposure": 0.7,
-  "btc_price": 71007.8359375,
+  "btc_price": 69550.2265625,
   "signals": {
     "MVRV": {
       "value": -1,
       "category": "On-chain"
     },
     "SOPR": {
-      "value": -1,
+      "value": 0,
       "category": "On-chain"
     },
     "SOPR_Adj": {
-      "value": -1,
+      "value": 0,
       "category": "On-chain"
     },
     "STH_SOPR": {
@@ -33,7 +33,7 @@
       "category": "On-chain"
     },
     "S2F_Dev": {
-      "value": -1,
+      "value": 0,
       "category": "On-chain"
     },
     "Exch_Reserve": {
@@ -41,7 +41,7 @@
       "category": "On-chain"
     },
     "Exch_Netflow": {
-      "value": -1,
+      "value": 0,
       "category": "On-chain"
     },
     "Whale_Ratio": {
@@ -61,7 +61,7 @@
       "category": "On-chain"
     },
     "Dormancy": {
-      "value": 0,
+      "value": -1,
       "category": "On-chain"
     },
     "Lev_Ratio": {
@@ -81,7 +81,7 @@
       "category": "On-chain"
     },
     "NRPL": {
-      "value": -1,
+      "value": 0,
       "category": "On-chain"
     },
     "MVRV_Proxy": {
@@ -242,8 +242,8 @@
     }
   },
   "signal_counts": {
-    "bullish": 33,
+    "bullish": 29,
     "bearish": 5,
-    "neutral": 21
+    "neutral": 25
   }
 }
