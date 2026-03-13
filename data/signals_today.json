@@ -1,8 +1,8 @@
 {
-  "date": "2026-03-12",
-  "combo_score": -0.1388888888888889,
-  "exposure": 0.7,
-  "btc_price": 69851.9140625,
+  "date": "2026-03-13",
+  "combo_score": -0.12745098039215685,
+  "exposure": 0.8,
+  "btc_price": 71676.5625,
   "signals": {
     "MVRV": {
       "value": -1,
@@ -33,15 +33,15 @@
       "category": "On-chain"
     },
     "S2F_Dev": {
-      "value": 0,
+      "value": -1,
       "category": "On-chain"
     },
     "Exch_Reserve": {
-      "value": 0,
+      "value": -1,
       "category": "On-chain"
     },
     "Exch_Netflow": {
-      "value": -1,
+      "value": 0,
       "category": "On-chain"
     },
     "Whale_Ratio": {
@@ -121,7 +121,7 @@
       "category": "Technical"
     },
     "Gold_90d": {
-      "value": 1,
+      "value": 0,
       "category": "Macro"
     },
     "HY_Spread": {
@@ -197,7 +197,7 @@
       "category": "Technical"
     },
     "SP500_EMA_50_200": {
-      "value": -1,
+      "value": 1,
       "category": "Technical"
     },
     "GapPct_SMA90_365d": {
