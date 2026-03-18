@@ -1,15 +1,15 @@
 {
-  "date": "2026-03-17",
-  "combo_score": -0.19656862745098042,
-  "exposure": 0.6,
-  "btc_price": 74392.6171875,
+  "date": "2026-03-18",
+  "combo_score": -0.10931372549019608,
+  "exposure": 0.5,
+  "btc_price": 74036.8125,
   "signals": {
     "MVRV": {
       "value": -1,
       "category": "On-chain"
     },
     "SOPR": {
-      "value": 0,
+      "value": -1,
       "category": "On-chain"
     },
     "SOPR_Adj": {
@@ -25,7 +25,7 @@
       "category": "On-chain"
     },
     "NVT": {
-      "value": -1,
+      "value": 0,
       "category": "On-chain"
     },
     "NVM": {
@@ -45,7 +45,7 @@
       "category": "On-chain"
     },
     "Whale_Ratio": {
-      "value": -1,
+      "value": 0,
       "category": "On-chain"
     },
     "MPI": {
@@ -81,7 +81,7 @@
       "category": "On-chain"
     },
     "NRPL": {
-      "value": 0,
+      "value": -1,
       "category": "On-chain"
     },
     "MVRV_Proxy": {
@@ -229,7 +229,7 @@
       "category": "Macro"
     },
     "SOFR_IORB_Spread_Sign": {
-      "value": 0,
+      "value": 1,
       "category": "Macro"
     },
     "RRP_Trend_90d": {
@@ -243,7 +243,7 @@
   },
   "signal_counts": {
     "bullish": 25,
-    "bearish": 6,
-    "neutral": 28
+    "bearish": 7,
+    "neutral": 27
   }
 }
