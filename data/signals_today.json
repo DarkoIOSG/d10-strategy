@@ -1,8 +1,8 @@
 {
-  "date": "2026-03-19",
-  "combo_score": -0.09768518518518521,
+  "date": "2026-03-20",
+  "combo_score": -0.020833333333333336,
   "exposure": 0.5,
-  "btc_price": 70023.7421875,
+  "btc_price": 71228.7578125,
   "signals": {
     "MVRV": {
       "value": -1,
@@ -33,7 +33,7 @@
       "category": "On-chain"
     },
     "S2F_Dev": {
-      "value": 0,
+      "value": -1,
       "category": "On-chain"
     },
     "Exch_Reserve": {
@@ -45,11 +45,11 @@
       "category": "On-chain"
     },
     "Whale_Ratio": {
-      "value": 1,
+      "value": 0,
       "category": "On-chain"
     },
     "MPI": {
-      "value": 0,
+      "value": -1,
       "category": "On-chain"
     },
     "Puell": {
@@ -89,7 +89,7 @@
       "category": "On-chain"
     },
     "Puell_Proxy": {
-      "value": 0,
+      "value": -1,
       "category": "On-chain"
     },
     "RealVol_30": {
@@ -229,7 +229,7 @@
       "category": "Macro"
     },
     "SOFR_IORB_Spread_Sign": {
-      "value": 0,
+      "value": -1,
       "category": "Macro"
     },
     "RRP_Trend_90d": {
@@ -242,8 +242,8 @@
     }
   },
   "signal_counts": {
-    "bullish": 29,
-    "bearish": 7,
-    "neutral": 23
+    "bullish": 33,
+    "bearish": 6,
+    "neutral": 20
   }
 }
