@@ -1,8 +1,8 @@
 {
-  "date": "2026-03-25",
-  "combo_score": -0.016203703703703706,
+  "date": "2026-03-26",
+  "combo_score": -0.018518518518518524,
   "exposure": 0.5,
-  "btc_price": 71397.453125,
+  "btc_price": 69928.0625,
   "signals": {
     "MVRV": {
       "value": -1,
@@ -17,7 +17,7 @@
       "category": "On-chain"
     },
     "STH_SOPR": {
-      "value": -1,
+      "value": 0,
       "category": "On-chain"
     },
     "LTH_SOPR": {
@@ -29,11 +29,11 @@
       "category": "On-chain"
     },
     "NVM": {
-      "value": 1,
+      "value": 0,
       "category": "On-chain"
     },
     "S2F_Dev": {
-      "value": -1,
+      "value": 0,
       "category": "On-chain"
     },
     "Exch_Reserve": {
@@ -45,15 +45,15 @@
       "category": "On-chain"
     },
     "Whale_Ratio": {
-      "value": 1,
+      "value": 0,
       "category": "On-chain"
     },
     "MPI": {
-      "value": -1,
+      "value": 0,
       "category": "On-chain"
     },
     "Puell": {
-      "value": -1,
+      "value": 0,
       "category": "On-chain"
     },
     "SOPR_Ratio": {
@@ -61,7 +61,7 @@
       "category": "On-chain"
     },
     "Dormancy": {
-      "value": 0,
+      "value": -1,
       "category": "On-chain"
     },
     "Lev_Ratio": {
@@ -77,7 +77,7 @@
       "category": "On-chain"
     },
     "Coinbase_Prem": {
-      "value": 0,
+      "value": 1,
       "category": "On-chain"
     },
     "NRPL": {
@@ -89,7 +89,7 @@
       "category": "On-chain"
     },
     "Puell_Proxy": {
-      "value": -1,
+      "value": 0,
       "category": "On-chain"
     },
     "RealVol_30": {
@@ -153,7 +153,7 @@
       "category": "Technical"
     },
     "Zscore_SMA50_daily": {
-      "value": 1,
+      "value": 0,
       "category": "Technical"
     },
     "Zscore_SMA90_daily": {
@@ -181,7 +181,7 @@
       "category": "Technical"
     },
     "Zscore_EMA200_daily": {
-      "value": 0,
+      "value": -1,
       "category": "Technical"
     },
     "Zscore_EMA365_daily": {
@@ -242,8 +242,8 @@
     }
   },
   "signal_counts": {
-    "bullish": 32,
-    "bearish": 9,
-    "neutral": 18
+    "bullish": 29,
+    "bearish": 7,
+    "neutral": 23
   }
 }
