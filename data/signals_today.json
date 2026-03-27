@@ -1,8 +1,8 @@
 {
-  "date": "2026-03-26",
-  "combo_score": -0.018518518518518524,
+  "date": "2026-03-27",
+  "combo_score": -0.016203703703703706,
   "exposure": 0.5,
-  "btc_price": 69928.0625,
+  "btc_price": 67749.3046875,
   "signals": {
     "MVRV": {
       "value": -1,
@@ -61,7 +61,7 @@
       "category": "On-chain"
     },
     "Dormancy": {
-      "value": -1,
+      "value": 0,
       "category": "On-chain"
     },
     "Lev_Ratio": {
@@ -89,7 +89,7 @@
       "category": "On-chain"
     },
     "Puell_Proxy": {
-      "value": 0,
+      "value": 1,
       "category": "On-chain"
     },
     "RealVol_30": {
@@ -242,8 +242,8 @@
     }
   },
   "signal_counts": {
-    "bullish": 29,
-    "bearish": 7,
+    "bullish": 28,
+    "bearish": 8,
     "neutral": 23
   }
 }
