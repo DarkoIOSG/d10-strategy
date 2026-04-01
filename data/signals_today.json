@@ -1,8 +1,8 @@
 {
-  "date": "2026-03-31",
-  "combo_score": 0.0023148148148148112,
+  "date": "2026-04-01",
+  "combo_score": 0.04629629629629631,
   "exposure": 0.5,
-  "btc_price": 66856.625,
+  "btc_price": 68671.5390625,
   "signals": {
     "MVRV": {
       "value": -1,
@@ -61,7 +61,7 @@
       "category": "On-chain"
     },
     "Dormancy": {
-      "value": -1,
+      "value": 1,
       "category": "On-chain"
     },
     "Lev_Ratio": {
@@ -125,7 +125,7 @@
       "category": "Macro"
     },
     "HY_Spread": {
-      "value": 0,
+      "value": 1,
       "category": "On-chain"
     },
     "MABreak_SMA_daily_30_90_180_365": {
@@ -233,7 +233,7 @@
       "category": "Macro"
     },
     "RRP_Trend_90d": {
-      "value": -1,
+      "value": 1,
       "category": "Macro"
     },
     "PPI_vs_CPI": {
@@ -242,8 +242,8 @@
     }
   },
   "signal_counts": {
-    "bullish": 30,
-    "bearish": 7,
-    "neutral": 22
+    "bullish": 28,
+    "bearish": 10,
+    "neutral": 21
   }
 }
