@@ -1,8 +1,8 @@
 {
-  "date": "2026-04-04",
-  "combo_score": -0.07870370370370372,
+  "date": "2026-04-05",
+  "combo_score": -0.01898148148148149,
   "exposure": 0.5,
-  "btc_price": 66951.1328125,
+  "btc_price": 66861.8984375,
   "signals": {
     "MVRV": {
       "value": -1,
@@ -25,7 +25,7 @@
       "category": "On-chain"
     },
     "NVT": {
-      "value": 0,
+      "value": 1,
       "category": "On-chain"
     },
     "NVM": {
@@ -37,7 +37,7 @@
       "category": "On-chain"
     },
     "Exch_Reserve": {
-      "value": 0,
+      "value": -1,
       "category": "On-chain"
     },
     "Exch_Netflow": {
@@ -81,7 +81,7 @@
       "category": "On-chain"
     },
     "NRPL": {
-      "value": -1,
+      "value": 0,
       "category": "On-chain"
     },
     "MVRV_Proxy": {
@@ -89,7 +89,7 @@
       "category": "On-chain"
     },
     "Puell_Proxy": {
-      "value": 1,
+      "value": 0,
       "category": "On-chain"
     },
     "RealVol_30": {
