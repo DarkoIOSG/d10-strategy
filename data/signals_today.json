@@ -1,8 +1,8 @@
 {
-  "date": "2026-04-06",
-  "combo_score": -0.06712962962962965,
-  "exposure": 0.5,
-  "btc_price": 69224.265625,
+  "date": "2026-04-07",
+  "combo_score": 0.1258169934640523,
+  "exposure": 0.4,
+  "btc_price": 68928.75,
   "signals": {
     "MVRV": {
       "value": -1,
@@ -21,11 +21,11 @@
       "category": "On-chain"
     },
     "LTH_SOPR": {
-      "value": 1,
+      "value": -1,
       "category": "On-chain"
     },
     "NVT": {
-      "value": 1,
+      "value": 0,
       "category": "On-chain"
     },
     "NVM": {
@@ -33,11 +33,11 @@
       "category": "On-chain"
     },
     "S2F_Dev": {
-      "value": 0,
+      "value": -1,
       "category": "On-chain"
     },
     "Exch_Reserve": {
-      "value": 0,
+      "value": -1,
       "category": "On-chain"
     },
     "Exch_Netflow": {
@@ -45,23 +45,23 @@
       "category": "On-chain"
     },
     "Whale_Ratio": {
-      "value": 1,
-      "category": "On-chain"
-    },
-    "MPI": {
       "value": -1,
       "category": "On-chain"
     },
-    "Puell": {
+    "MPI": {
       "value": 0,
       "category": "On-chain"
     },
+    "Puell": {
+      "value": -1,
+      "category": "On-chain"
+    },
     "SOPR_Ratio": {
-      "value": 1,
+      "value": -1,
       "category": "On-chain"
     },
     "Dormancy": {
-      "value": 1,
+      "value": 0,
       "category": "On-chain"
     },
     "Lev_Ratio": {
@@ -149,7 +149,7 @@
       "category": "Technical"
     },
     "MABreak_EMA_weekly_4_13_26_52": {
-      "value": 0,
+      "value": 1,
       "category": "Technical"
     },
     "Zscore_SMA50_daily": {
@@ -229,7 +229,7 @@
       "category": "Macro"
     },
     "SOFR_IORB_Spread_Sign": {
-      "value": 0,
+      "value": 1,
       "category": "Macro"
     },
     "RRP_Trend_90d": {
@@ -242,8 +242,8 @@
     }
   },
   "signal_counts": {
-    "bullish": 18,
-    "bearish": 13,
-    "neutral": 28
+    "bullish": 23,
+    "bearish": 10,
+    "neutral": 26
   }
 }
