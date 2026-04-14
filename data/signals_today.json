@@ -1,19 +1,19 @@
 {
-  "date": "2026-04-13",
-  "combo_score": -0.02314814814814815,
+  "date": "2026-04-14",
+  "combo_score": -0.03240740740740741,
   "exposure": 0.5,
-  "btc_price": 70782.4140625,
+  "btc_price": 74774.03125,
   "signals": {
     "MVRV": {
       "value": -1,
       "category": "On-chain"
     },
     "SOPR": {
-      "value": -1,
+      "value": 0,
       "category": "On-chain"
     },
     "SOPR_Adj": {
-      "value": -1,
+      "value": 0,
       "category": "On-chain"
     },
     "STH_SOPR": {
@@ -25,7 +25,7 @@
       "category": "On-chain"
     },
     "NVT": {
-      "value": 1,
+      "value": 0,
       "category": "On-chain"
     },
     "NVM": {
@@ -41,15 +41,15 @@
       "category": "On-chain"
     },
     "Exch_Netflow": {
-      "value": 0,
-      "category": "On-chain"
-    },
-    "Whale_Ratio": {
       "value": 1,
       "category": "On-chain"
     },
+    "Whale_Ratio": {
+      "value": 0,
+      "category": "On-chain"
+    },
     "MPI": {
-      "value": -1,
+      "value": 0,
       "category": "On-chain"
     },
     "Puell": {
@@ -61,7 +61,7 @@
       "category": "On-chain"
     },
     "Dormancy": {
-      "value": 0,
+      "value": -1,
       "category": "On-chain"
     },
     "Lev_Ratio": {
@@ -77,11 +77,11 @@
       "category": "On-chain"
     },
     "Coinbase_Prem": {
-      "value": 0,
+      "value": -1,
       "category": "On-chain"
     },
     "NRPL": {
-      "value": -1,
+      "value": 0,
       "category": "On-chain"
     },
     "MVRV_Proxy": {
@@ -109,11 +109,11 @@
       "category": "On-chain"
     },
     "VIX": {
-      "value": -1,
+      "value": 0,
       "category": "On-chain"
     },
     "DXY": {
-      "value": 0,
+      "value": -1,
       "category": "On-chain"
     },
     "SP500_Trend": {
@@ -121,7 +121,7 @@
       "category": "Technical"
     },
     "Gold_90d": {
-      "value": -1,
+      "value": 0,
       "category": "Macro"
     },
     "HY_Spread": {
@@ -129,7 +129,7 @@
       "category": "On-chain"
     },
     "MABreak_SMA_daily_30_90_180_365": {
-      "value": 0,
+      "value": 1,
       "category": "Technical"
     },
     "MABreak_SMA_daily_50_100_200_365": {
@@ -145,7 +145,7 @@
       "category": "Technical"
     },
     "MABreak_EMA_daily_50_100_200_365": {
-      "value": 0,
+      "value": 1,
       "category": "Technical"
     },
     "MABreak_EMA_weekly_4_13_26_52": {
@@ -157,7 +157,7 @@
       "category": "Technical"
     },
     "Zscore_SMA90_daily": {
-      "value": 0,
+      "value": 1,
       "category": "Technical"
     },
     "Zscore_SMA200_daily": {
@@ -165,7 +165,7 @@
       "category": "Technical"
     },
     "Zscore_SMA365_daily": {
-      "value": -1,
+      "value": 0,
       "category": "Technical"
     },
     "Zscore_SMA26_weekly": {
@@ -173,7 +173,7 @@
       "category": "Technical"
     },
     "Zscore_EMA50_daily": {
-      "value": 0,
+      "value": 1,
       "category": "Technical"
     },
     "Zscore_EMA90_daily": {
@@ -185,7 +185,7 @@
       "category": "Technical"
     },
     "Zscore_EMA365_daily": {
-      "value": -1,
+      "value": 0,
       "category": "Technical"
     },
     "Zscore_EMA26_weekly": {
@@ -205,7 +205,7 @@
       "category": "Technical"
     },
     "GapPct_SMA200_365d": {
-      "value": -1,
+      "value": 0,
       "category": "Technical"
     },
     "GapPct_SMA365_365d": {
@@ -217,7 +217,7 @@
       "category": "Technical"
     },
     "GapPct_EMA200_365d": {
-      "value": -1,
+      "value": 0,
       "category": "Technical"
     },
     "GapPct_EMA365_365d": {
@@ -242,8 +242,8 @@
     }
   },
   "signal_counts": {
-    "bullish": 26,
-    "bearish": 8,
-    "neutral": 25
+    "bullish": 19,
+    "bearish": 11,
+    "neutral": 29
   }
 }
