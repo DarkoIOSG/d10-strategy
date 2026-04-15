@@ -1,8 +1,8 @@
 {
-  "date": "2026-04-14",
+  "date": "2026-04-15",
   "combo_score": -0.03240740740740741,
   "exposure": 0.5,
-  "btc_price": 74774.03125,
+  "btc_price": 74072.2578125,
   "signals": {
     "MVRV": {
       "value": -1,
@@ -17,7 +17,7 @@
       "category": "On-chain"
     },
     "STH_SOPR": {
-      "value": 0,
+      "value": 1,
       "category": "On-chain"
     },
     "LTH_SOPR": {
@@ -25,7 +25,7 @@
       "category": "On-chain"
     },
     "NVT": {
-      "value": 0,
+      "value": -1,
       "category": "On-chain"
     },
     "NVM": {
@@ -41,11 +41,11 @@
       "category": "On-chain"
     },
     "Exch_Netflow": {
-      "value": 1,
+      "value": 0,
       "category": "On-chain"
     },
     "Whale_Ratio": {
-      "value": 0,
+      "value": 1,
       "category": "On-chain"
     },
     "MPI": {
@@ -61,11 +61,11 @@
       "category": "On-chain"
     },
     "Dormancy": {
-      "value": -1,
+      "value": 0,
       "category": "On-chain"
     },
     "Lev_Ratio": {
-      "value": 0,
+      "value": 1,
       "category": "On-chain"
     },
     "SSR": {
@@ -117,7 +117,7 @@
       "category": "On-chain"
     },
     "SP500_Trend": {
-      "value": 1,
+      "value": 0,
       "category": "Technical"
     },
     "Gold_90d": {
@@ -145,7 +145,7 @@
       "category": "Technical"
     },
     "MABreak_EMA_daily_50_100_200_365": {
-      "value": 1,
+      "value": 0,
       "category": "Technical"
     },
     "MABreak_EMA_weekly_4_13_26_52": {
@@ -205,7 +205,7 @@
       "category": "Technical"
     },
     "GapPct_SMA200_365d": {
-      "value": 0,
+      "value": -1,
       "category": "Technical"
     },
     "GapPct_SMA365_365d": {
@@ -217,7 +217,7 @@
       "category": "Technical"
     },
     "GapPct_EMA200_365d": {
-      "value": 0,
+      "value": -1,
       "category": "Technical"
     },
     "GapPct_EMA365_365d": {
@@ -242,8 +242,8 @@
     }
   },
   "signal_counts": {
-    "bullish": 19,
+    "bullish": 21,
     "bearish": 11,
-    "neutral": 29
+    "neutral": 27
   }
 }
