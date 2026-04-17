@@ -1,19 +1,19 @@
 {
-  "date": "2026-04-16",
-  "combo_score": 0.12327069716775599,
+  "date": "2026-04-17",
+  "combo_score": 0.12592592592592594,
   "exposure": 0.5,
-  "btc_price": 74834.0078125,
+  "btc_price": 75855.0078125,
   "signals": {
     "MVRV": {
       "value": -1,
       "category": "On-chain"
     },
     "SOPR": {
-      "value": -1,
+      "value": 0,
       "category": "On-chain"
     },
     "SOPR_Adj": {
-      "value": -1,
+      "value": 0,
       "category": "On-chain"
     },
     "STH_SOPR": {
@@ -33,7 +33,7 @@
       "category": "On-chain"
     },
     "S2F_Dev": {
-      "value": -1,
+      "value": 0,
       "category": "On-chain"
     },
     "Exch_Reserve": {
@@ -45,7 +45,7 @@
       "category": "On-chain"
     },
     "Whale_Ratio": {
-      "value": 1,
+      "value": 0,
       "category": "On-chain"
     },
     "MPI": {
@@ -53,7 +53,7 @@
       "category": "On-chain"
     },
     "Puell": {
-      "value": -1,
+      "value": 0,
       "category": "On-chain"
     },
     "SOPR_Ratio": {
@@ -61,7 +61,7 @@
       "category": "On-chain"
     },
     "Dormancy": {
-      "value": -1,
+      "value": 0,
       "category": "On-chain"
     },
     "Lev_Ratio": {
@@ -81,11 +81,11 @@
       "category": "On-chain"
     },
     "NRPL": {
-      "value": -1,
+      "value": 0,
       "category": "On-chain"
     },
     "MVRV_Proxy": {
-      "value": -1,
+      "value": 0,
       "category": "On-chain"
     },
     "Puell_Proxy": {
@@ -129,7 +129,7 @@
       "category": "On-chain"
     },
     "MABreak_SMA_daily_30_90_180_365": {
-      "value": 1,
+      "value": 0,
       "category": "Technical"
     },
     "MABreak_SMA_daily_50_100_200_365": {
@@ -201,7 +201,7 @@
       "category": "Technical"
     },
     "GapPct_SMA90_365d": {
-      "value": 0,
+      "value": 1,
       "category": "Technical"
     },
     "GapPct_SMA200_365d": {
@@ -242,8 +242,8 @@
     }
   },
   "signal_counts": {
-    "bullish": 22,
-    "bearish": 12,
-    "neutral": 25
+    "bullish": 15,
+    "bearish": 11,
+    "neutral": 33
   }
 }
