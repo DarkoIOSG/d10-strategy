@@ -1,19 +1,19 @@
 {
-  "date": "2026-04-21",
-  "combo_score": -0.05092592592592594,
+  "date": "2026-04-22",
+  "combo_score": -0.030092592592592594,
   "exposure": 0.5,
-  "btc_price": 76513.0625,
+  "btc_price": 77989.546875,
   "signals": {
     "MVRV": {
       "value": -1,
       "category": "On-chain"
     },
     "SOPR": {
-      "value": -1,
+      "value": 0,
       "category": "On-chain"
     },
     "SOPR_Adj": {
-      "value": -1,
+      "value": 0,
       "category": "On-chain"
     },
     "STH_SOPR": {
@@ -41,7 +41,7 @@
       "category": "On-chain"
     },
     "Exch_Netflow": {
-      "value": 0,
+      "value": 1,
       "category": "On-chain"
     },
     "Whale_Ratio": {
@@ -61,7 +61,7 @@
       "category": "On-chain"
     },
     "Dormancy": {
-      "value": 0,
+      "value": 1,
       "category": "On-chain"
     },
     "Lev_Ratio": {
@@ -81,7 +81,7 @@
       "category": "On-chain"
     },
     "NRPL": {
-      "value": -1,
+      "value": 0,
       "category": "On-chain"
     },
     "MVRV_Proxy": {
@@ -113,7 +113,7 @@
       "category": "On-chain"
     },
     "DXY": {
-      "value": 0,
+      "value": -1,
       "category": "On-chain"
     },
     "SP500_Trend": {
@@ -213,7 +213,7 @@
       "category": "Technical"
     },
     "GapPct_EMA90_365d": {
-      "value": 0,
+      "value": 1,
       "category": "Technical"
     },
     "GapPct_EMA200_365d": {
@@ -229,7 +229,7 @@
       "category": "Macro"
     },
     "SOFR_IORB_Spread_Sign": {
-      "value": 0,
+      "value": -1,
       "category": "Macro"
     },
     "RRP_Trend_90d": {
@@ -242,8 +242,8 @@
     }
   },
   "signal_counts": {
-    "bullish": 20,
-    "bearish": 10,
-    "neutral": 29
+    "bullish": 19,
+    "bearish": 13,
+    "neutral": 27
   }
 }
