@@ -1,23 +1,23 @@
 {
-  "date": "2026-04-22",
+  "date": "2026-04-23",
   "combo_score": -0.030092592592592594,
   "exposure": 0.5,
-  "btc_price": 77989.546875,
+  "btc_price": 77611.90625,
   "signals": {
     "MVRV": {
       "value": -1,
       "category": "On-chain"
     },
     "SOPR": {
-      "value": 0,
+      "value": -1,
       "category": "On-chain"
     },
     "SOPR_Adj": {
-      "value": 0,
+      "value": -1,
       "category": "On-chain"
     },
     "STH_SOPR": {
-      "value": 0,
+      "value": 1,
       "category": "On-chain"
     },
     "LTH_SOPR": {
@@ -41,7 +41,7 @@
       "category": "On-chain"
     },
     "Exch_Netflow": {
-      "value": 1,
+      "value": 0,
       "category": "On-chain"
     },
     "Whale_Ratio": {
@@ -49,7 +49,7 @@
       "category": "On-chain"
     },
     "MPI": {
-      "value": 0,
+      "value": 1,
       "category": "On-chain"
     },
     "Puell": {
@@ -61,7 +61,7 @@
       "category": "On-chain"
     },
     "Dormancy": {
-      "value": 1,
+      "value": 0,
       "category": "On-chain"
     },
     "Lev_Ratio": {
@@ -77,11 +77,11 @@
       "category": "On-chain"
     },
     "Coinbase_Prem": {
-      "value": 0,
+      "value": -1,
       "category": "On-chain"
     },
     "NRPL": {
-      "value": 0,
+      "value": -1,
       "category": "On-chain"
     },
     "MVRV_Proxy": {
@@ -113,7 +113,7 @@
       "category": "On-chain"
     },
     "DXY": {
-      "value": -1,
+      "value": 0,
       "category": "On-chain"
     },
     "SP500_Trend": {
@@ -242,8 +242,8 @@
     }
   },
   "signal_counts": {
-    "bullish": 19,
+    "bullish": 22,
     "bearish": 13,
-    "neutral": 27
+    "neutral": 24
   }
 }
