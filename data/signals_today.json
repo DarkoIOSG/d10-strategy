@@ -1,8 +1,8 @@
 {
-  "date": "2026-04-26",
-  "combo_score": -0.055555555555555566,
+  "date": "2026-04-27",
+  "combo_score": -0.05787037037037038,
   "exposure": 0.5,
-  "btc_price": 78060.71875,
+  "btc_price": 77837.7734375,
   "signals": {
     "MVRV": {
       "value": -1,
@@ -21,11 +21,11 @@
       "category": "On-chain"
     },
     "LTH_SOPR": {
-      "value": -1,
+      "value": 0,
       "category": "On-chain"
     },
     "NVT": {
-      "value": 0,
+      "value": 1,
       "category": "On-chain"
     },
     "NVM": {
@@ -45,7 +45,7 @@
       "category": "On-chain"
     },
     "Whale_Ratio": {
-      "value": 0,
+      "value": 1,
       "category": "On-chain"
     },
     "MPI": {
@@ -57,7 +57,7 @@
       "category": "On-chain"
     },
     "SOPR_Ratio": {
-      "value": -1,
+      "value": 0,
       "category": "On-chain"
     },
     "Dormancy": {
@@ -242,8 +242,8 @@
     }
   },
   "signal_counts": {
-    "bullish": 17,
-    "bearish": 11,
+    "bullish": 15,
+    "bearish": 13,
     "neutral": 31
   }
 }
