@@ -1,19 +1,19 @@
 {
-  "date": "2026-04-28",
+  "date": "2026-04-29",
   "combo_score": 0.13055555555555556,
   "exposure": 0.4,
-  "btc_price": 76529.8203125,
+  "btc_price": 77721.828125,
   "signals": {
     "MVRV": {
       "value": -1,
       "category": "On-chain"
     },
     "SOPR": {
-      "value": 0,
+      "value": -1,
       "category": "On-chain"
     },
     "SOPR_Adj": {
-      "value": 0,
+      "value": -1,
       "category": "On-chain"
     },
     "STH_SOPR": {
@@ -81,7 +81,7 @@
       "category": "On-chain"
     },
     "NRPL": {
-      "value": 0,
+      "value": -1,
       "category": "On-chain"
     },
     "MVRV_Proxy": {
@@ -242,8 +242,8 @@
     }
   },
   "signal_counts": {
-    "bullish": 16,
+    "bullish": 19,
     "bearish": 11,
-    "neutral": 32
+    "neutral": 29
   }
 }
