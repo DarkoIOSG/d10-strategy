@@ -1,8 +1,8 @@
 {
-  "date": "2026-05-03",
+  "date": "2026-05-04",
   "combo_score": 0.1375,
   "exposure": 0.4,
-  "btc_price": 78410.7421875,
+  "btc_price": 78698.0234375,
   "signals": {
     "MVRV": {
       "value": -1,
@@ -21,7 +21,7 @@
       "category": "On-chain"
     },
     "LTH_SOPR": {
-      "value": -1,
+      "value": 0,
       "category": "On-chain"
     },
     "NVT": {
@@ -57,11 +57,11 @@
       "category": "On-chain"
     },
     "SOPR_Ratio": {
-      "value": -1,
+      "value": 0,
       "category": "On-chain"
     },
     "Dormancy": {
-      "value": -1,
+      "value": 0,
       "category": "On-chain"
     },
     "Lev_Ratio": {
@@ -113,7 +113,7 @@
       "category": "On-chain"
     },
     "DXY": {
-      "value": -1,
+      "value": 0,
       "category": "On-chain"
     },
     "SP500_Trend": {
@@ -242,8 +242,8 @@
     }
   },
   "signal_counts": {
-    "bullish": 18,
+    "bullish": 14,
     "bearish": 13,
-    "neutral": 28
+    "neutral": 32
   }
 }
