@@ -1,8 +1,8 @@
 {
-  "date": "2026-05-06",
-  "combo_score": -0.03935185185185185,
+  "date": "2026-05-07",
+  "combo_score": -0.03703703703703704,
   "exposure": 0.5,
-  "btc_price": 82039.28125,
+  "btc_price": 80865.3984375,
   "signals": {
     "MVRV": {
       "value": -1,
@@ -17,7 +17,7 @@
       "category": "On-chain"
     },
     "STH_SOPR": {
-      "value": 1,
+      "value": 0,
       "category": "On-chain"
     },
     "LTH_SOPR": {
@@ -25,7 +25,7 @@
       "category": "On-chain"
     },
     "NVT": {
-      "value": -1,
+      "value": 0,
       "category": "On-chain"
     },
     "NVM": {
@@ -41,15 +41,15 @@
       "category": "On-chain"
     },
     "Exch_Netflow": {
-      "value": -1,
+      "value": 0,
       "category": "On-chain"
     },
     "Whale_Ratio": {
-      "value": 0,
+      "value": 1,
       "category": "On-chain"
     },
     "MPI": {
-      "value": 0,
+      "value": 1,
       "category": "On-chain"
     },
     "Puell": {
@@ -93,7 +93,7 @@
       "category": "On-chain"
     },
     "RealVol_30": {
-      "value": 0,
+      "value": -1,
       "category": "On-chain"
     },
     "RealVol_90": {
@@ -141,7 +141,7 @@
       "category": "Technical"
     },
     "MABreak_EMA_daily_30_90_180_365": {
-      "value": -1,
+      "value": 0,
       "category": "Technical"
     },
     "MABreak_EMA_daily_50_100_200_365": {
@@ -149,7 +149,7 @@
       "category": "Technical"
     },
     "MABreak_EMA_weekly_4_13_26_52": {
-      "value": -1,
+      "value": 0,
       "category": "Technical"
     },
     "Zscore_SMA50_daily": {
@@ -242,8 +242,8 @@
     }
   },
   "signal_counts": {
-    "bullish": 20,
-    "bearish": 10,
-    "neutral": 29
+    "bullish": 17,
+    "bearish": 11,
+    "neutral": 31
   }
 }
