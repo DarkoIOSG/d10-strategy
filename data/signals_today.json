@@ -1,8 +1,8 @@
 {
-  "date": "2026-05-07",
+  "date": "2026-05-08",
   "combo_score": -0.03703703703703704,
   "exposure": 0.5,
-  "btc_price": 80865.3984375,
+  "btc_price": 79968.0390625,
   "signals": {
     "MVRV": {
       "value": -1,
@@ -49,7 +49,7 @@
       "category": "On-chain"
     },
     "MPI": {
-      "value": 1,
+      "value": 0,
       "category": "On-chain"
     },
     "Puell": {
@@ -61,7 +61,7 @@
       "category": "On-chain"
     },
     "Dormancy": {
-      "value": -1,
+      "value": 0,
       "category": "On-chain"
     },
     "Lev_Ratio": {
@@ -242,8 +242,8 @@
     }
   },
   "signal_counts": {
-    "bullish": 17,
-    "bearish": 11,
-    "neutral": 31
+    "bullish": 16,
+    "bearish": 10,
+    "neutral": 33
   }
 }
