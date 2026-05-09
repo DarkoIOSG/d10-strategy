@@ -1,8 +1,8 @@
 {
-  "date": "2026-05-08",
-  "combo_score": -0.03703703703703704,
+  "date": "2026-05-09",
+  "combo_score": -0.03935185185185185,
   "exposure": 0.5,
-  "btc_price": 79968.0390625,
+  "btc_price": 80241.0,
   "signals": {
     "MVRV": {
       "value": -1,
@@ -45,7 +45,7 @@
       "category": "On-chain"
     },
     "Whale_Ratio": {
-      "value": 1,
+      "value": 0,
       "category": "On-chain"
     },
     "MPI": {
@@ -61,7 +61,7 @@
       "category": "On-chain"
     },
     "Dormancy": {
-      "value": 0,
+      "value": -1,
       "category": "On-chain"
     },
     "Lev_Ratio": {
@@ -117,7 +117,7 @@
       "category": "On-chain"
     },
     "SP500_Trend": {
-      "value": 0,
+      "value": -1,
       "category": "Technical"
     },
     "Gold_90d": {
@@ -137,7 +137,7 @@
       "category": "Technical"
     },
     "MABreak_SMA_weekly_4_13_26_52": {
-      "value": 0,
+      "value": -1,
       "category": "Technical"
     },
     "MABreak_EMA_daily_30_90_180_365": {
@@ -242,8 +242,8 @@
     }
   },
   "signal_counts": {
-    "bullish": 16,
-    "bearish": 10,
-    "neutral": 33
+    "bullish": 19,
+    "bearish": 9,
+    "neutral": 31
   }
 }
