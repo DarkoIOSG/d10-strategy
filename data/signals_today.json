@@ -1,8 +1,8 @@
 {
-  "date": "2026-05-09",
+  "date": "2026-05-10",
   "combo_score": -0.03935185185185185,
   "exposure": 0.5,
-  "btc_price": 80241.0,
+  "btc_price": 80817.1015625,
   "signals": {
     "MVRV": {
       "value": -1,
@@ -25,7 +25,7 @@
       "category": "On-chain"
     },
     "NVT": {
-      "value": 0,
+      "value": 1,
       "category": "On-chain"
     },
     "NVM": {
@@ -117,7 +117,7 @@
       "category": "On-chain"
     },
     "SP500_Trend": {
-      "value": -1,
+      "value": 0,
       "category": "Technical"
     },
     "Gold_90d": {
@@ -242,8 +242,8 @@
     }
   },
   "signal_counts": {
-    "bullish": 19,
-    "bearish": 9,
+    "bullish": 18,
+    "bearish": 10,
     "neutral": 31
   }
 }
