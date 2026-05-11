@@ -1,8 +1,8 @@
 {
-  "date": "2026-05-10",
-  "combo_score": -0.03935185185185185,
+  "date": "2026-05-11",
+  "combo_score": -0.03240740740740741,
   "exposure": 0.5,
-  "btc_price": 80817.1015625,
+  "btc_price": 80932.34375,
   "signals": {
     "MVRV": {
       "value": -1,
@@ -21,15 +21,15 @@
       "category": "On-chain"
     },
     "LTH_SOPR": {
-      "value": -1,
+      "value": 0,
       "category": "On-chain"
     },
     "NVT": {
-      "value": 1,
+      "value": 0,
       "category": "On-chain"
     },
     "NVM": {
-      "value": 0,
+      "value": 1,
       "category": "On-chain"
     },
     "S2F_Dev": {
@@ -45,11 +45,11 @@
       "category": "On-chain"
     },
     "Whale_Ratio": {
-      "value": 0,
+      "value": 1,
       "category": "On-chain"
     },
     "MPI": {
-      "value": 0,
+      "value": -1,
       "category": "On-chain"
     },
     "Puell": {
@@ -57,11 +57,11 @@
       "category": "On-chain"
     },
     "SOPR_Ratio": {
-      "value": -1,
+      "value": 0,
       "category": "On-chain"
     },
     "Dormancy": {
-      "value": -1,
+      "value": 0,
       "category": "On-chain"
     },
     "Lev_Ratio": {
@@ -93,7 +93,7 @@
       "category": "On-chain"
     },
     "RealVol_30": {
-      "value": -1,
+      "value": 0,
       "category": "On-chain"
     },
     "RealVol_90": {
@@ -242,8 +242,8 @@
     }
   },
   "signal_counts": {
-    "bullish": 18,
-    "bearish": 10,
-    "neutral": 31
+    "bullish": 15,
+    "bearish": 11,
+    "neutral": 33
   }
 }
