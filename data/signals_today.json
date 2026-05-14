@@ -1,8 +1,8 @@
 {
-  "date": "2026-05-13",
-  "combo_score": -0.03472222222222223,
+  "date": "2026-05-14",
+  "combo_score": -0.006944444444444446,
   "exposure": 0.5,
-  "btc_price": 81077.96875,
+  "btc_price": 79604.65625,
   "signals": {
     "MVRV": {
       "value": -1,
@@ -49,7 +49,7 @@
       "category": "On-chain"
     },
     "MPI": {
-      "value": 0,
+      "value": 1,
       "category": "On-chain"
     },
     "Puell": {
@@ -61,7 +61,7 @@
       "category": "On-chain"
     },
     "Dormancy": {
-      "value": -1,
+      "value": 0,
       "category": "On-chain"
     },
     "Lev_Ratio": {
@@ -117,7 +117,7 @@
       "category": "On-chain"
     },
     "SP500_Trend": {
-      "value": 0,
+      "value": -1,
       "category": "Technical"
     },
     "Gold_90d": {
@@ -137,11 +137,11 @@
       "category": "Technical"
     },
     "MABreak_SMA_weekly_4_13_26_52": {
-      "value": -1,
+      "value": 0,
       "category": "Technical"
     },
     "MABreak_EMA_daily_30_90_180_365": {
-      "value": -1,
+      "value": 0,
       "category": "Technical"
     },
     "MABreak_EMA_daily_50_100_200_365": {
@@ -149,7 +149,7 @@
       "category": "Technical"
     },
     "MABreak_EMA_weekly_4_13_26_52": {
-      "value": -1,
+      "value": 0,
       "category": "Technical"
     },
     "Zscore_SMA50_daily": {
@@ -233,7 +233,7 @@
       "category": "Macro"
     },
     "RRP_Trend_90d": {
-      "value": -1,
+      "value": 1,
       "category": "Macro"
     },
     "PPI_vs_CPI": {
@@ -242,8 +242,8 @@
     }
   },
   "signal_counts": {
-    "bullish": 19,
-    "bearish": 10,
-    "neutral": 30
+    "bullish": 15,
+    "bearish": 12,
+    "neutral": 32
   }
 }
