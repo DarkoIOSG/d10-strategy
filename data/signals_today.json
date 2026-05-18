@@ -1,19 +1,19 @@
 {
-  "date": "2026-05-17",
+  "date": "2026-05-18",
   "combo_score": -0.027777777777777783,
   "exposure": 0.5,
-  "btc_price": 78095.09375,
+  "btc_price": 77235.2578125,
   "signals": {
     "MVRV": {
       "value": -1,
       "category": "On-chain"
     },
     "SOPR": {
-      "value": -1,
+      "value": 0,
       "category": "On-chain"
     },
     "SOPR_Adj": {
-      "value": -1,
+      "value": 0,
       "category": "On-chain"
     },
     "STH_SOPR": {
@@ -21,11 +21,11 @@
       "category": "On-chain"
     },
     "LTH_SOPR": {
-      "value": 0,
+      "value": -1,
       "category": "On-chain"
     },
     "NVT": {
-      "value": 0,
+      "value": 1,
       "category": "On-chain"
     },
     "NVM": {
@@ -45,7 +45,7 @@
       "category": "On-chain"
     },
     "Whale_Ratio": {
-      "value": 0,
+      "value": 1,
       "category": "On-chain"
     },
     "MPI": {
@@ -57,7 +57,7 @@
       "category": "On-chain"
     },
     "SOPR_Ratio": {
-      "value": 0,
+      "value": -1,
       "category": "On-chain"
     },
     "Dormancy": {
@@ -69,7 +69,7 @@
       "category": "On-chain"
     },
     "SSR": {
-      "value": 0,
+      "value": -1,
       "category": "On-chain"
     },
     "Open_Interest": {
@@ -81,7 +81,7 @@
       "category": "On-chain"
     },
     "NRPL": {
-      "value": -1,
+      "value": 0,
       "category": "On-chain"
     },
     "MVRV_Proxy": {
@@ -89,7 +89,7 @@
       "category": "On-chain"
     },
     "Puell_Proxy": {
-      "value": 0,
+      "value": 1,
       "category": "On-chain"
     },
     "RealVol_30": {
@@ -177,7 +177,7 @@
       "category": "Technical"
     },
     "Zscore_EMA90_daily": {
-      "value": 1,
+      "value": 0,
       "category": "Technical"
     },
     "Zscore_EMA200_daily": {
@@ -243,7 +243,7 @@
   },
   "signal_counts": {
     "bullish": 18,
-    "bearish": 8,
-    "neutral": 33
+    "bearish": 10,
+    "neutral": 31
   }
 }
