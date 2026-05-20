@@ -1,8 +1,8 @@
 {
-  "date": "2026-05-19",
+  "date": "2026-05-20",
   "combo_score": -0.006944444444444446,
   "exposure": 0.5,
-  "btc_price": 76917.28125,
+  "btc_price": 77495.609375,
   "signals": {
     "MVRV": {
       "value": -1,
@@ -49,7 +49,7 @@
       "category": "On-chain"
     },
     "MPI": {
-      "value": 1,
+      "value": 0,
       "category": "On-chain"
     },
     "Puell": {
@@ -177,7 +177,7 @@
       "category": "Technical"
     },
     "Zscore_EMA90_daily": {
-      "value": 0,
+      "value": 1,
       "category": "Technical"
     },
     "Zscore_EMA200_daily": {
