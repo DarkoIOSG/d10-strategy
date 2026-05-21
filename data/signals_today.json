@@ -1,8 +1,8 @@
 {
-  "date": "2026-05-20",
-  "combo_score": -0.006944444444444446,
+  "date": "2026-05-21",
+  "combo_score": -0.004629629629629629,
   "exposure": 0.5,
-  "btc_price": 77495.609375,
+  "btc_price": 77239.0234375,
   "signals": {
     "MVRV": {
       "value": -1,
@@ -69,7 +69,7 @@
       "category": "On-chain"
     },
     "SSR": {
-      "value": -1,
+      "value": 0,
       "category": "On-chain"
     },
     "Open_Interest": {
@@ -177,7 +177,7 @@
       "category": "Technical"
     },
     "Zscore_EMA90_daily": {
-      "value": 1,
+      "value": 0,
       "category": "Technical"
     },
     "Zscore_EMA200_daily": {
@@ -242,8 +242,8 @@
     }
   },
   "signal_counts": {
-    "bullish": 18,
-    "bearish": 10,
-    "neutral": 31
+    "bullish": 17,
+    "bearish": 9,
+    "neutral": 33
   }
 }
