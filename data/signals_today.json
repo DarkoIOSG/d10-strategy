@@ -1,8 +1,8 @@
 {
-  "date": "2026-05-21",
+  "date": "2026-05-22",
   "combo_score": -0.004629629629629629,
   "exposure": 0.5,
-  "btc_price": 77239.0234375,
+  "btc_price": 77232.703125,
   "signals": {
     "MVRV": {
       "value": -1,
@@ -53,7 +53,7 @@
       "category": "On-chain"
     },
     "Puell": {
-      "value": 0,
+      "value": -1,
       "category": "On-chain"
     },
     "SOPR_Ratio": {
@@ -117,7 +117,7 @@
       "category": "On-chain"
     },
     "SP500_Trend": {
-      "value": 0,
+      "value": -1,
       "category": "Technical"
     },
     "Gold_90d": {
@@ -242,8 +242,8 @@
     }
   },
   "signal_counts": {
-    "bullish": 17,
+    "bullish": 19,
     "bearish": 9,
-    "neutral": 33
+    "neutral": 31
   }
 }
