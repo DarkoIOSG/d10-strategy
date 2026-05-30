@@ -1,8 +1,8 @@
 {
-  "date": "2026-05-29",
-  "combo_score": -0.05324074074074075,
+  "date": "2026-05-30",
+  "combo_score": -0.03240740740740741,
   "exposure": 0.5,
-  "btc_price": 73505.25,
+  "btc_price": 73504.25,
   "signals": {
     "MVRV": {
       "value": -1,
@@ -25,7 +25,7 @@
       "category": "On-chain"
     },
     "NVT": {
-      "value": -1,
+      "value": 0,
       "category": "On-chain"
     },
     "NVM": {
@@ -45,7 +45,7 @@
       "category": "On-chain"
     },
     "Whale_Ratio": {
-      "value": 0,
+      "value": 1,
       "category": "On-chain"
     },
     "MPI": {
@@ -97,7 +97,7 @@
       "category": "On-chain"
     },
     "RealVol_90": {
-      "value": 0,
+      "value": -1,
       "category": "On-chain"
     },
     "LR_1Y": {
@@ -233,7 +233,7 @@
       "category": "Macro"
     },
     "RRP_Trend_90d": {
-      "value": -1,
+      "value": 1,
       "category": "Macro"
     },
     "PPI_vs_CPI": {
@@ -242,8 +242,8 @@
     }
   },
   "signal_counts": {
-    "bullish": 21,
-    "bearish": 7,
-    "neutral": 31
+    "bullish": 20,
+    "bearish": 9,
+    "neutral": 30
   }
 }
