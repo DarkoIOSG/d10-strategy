@@ -1,8 +1,8 @@
 {
-  "date": "2026-06-04",
-  "combo_score": -0.07175925925925927,
+  "date": "2026-06-05",
+  "combo_score": -0.0069444444444444475,
   "exposure": 0.5,
-  "btc_price": 62394.26171875,
+  "btc_price": 62306.5390625,
   "signals": {
     "MVRV": {
       "value": -1,
@@ -169,7 +169,7 @@
       "category": "Technical"
     },
     "Zscore_SMA26_weekly": {
-      "value": 0,
+      "value": -1,
       "category": "Technical"
     },
     "Zscore_EMA50_daily": {
@@ -189,7 +189,7 @@
       "category": "Technical"
     },
     "Zscore_EMA26_weekly": {
-      "value": 0,
+      "value": -1,
       "category": "Technical"
     },
     "SP500_SMA_50_200": {
@@ -242,8 +242,8 @@
     }
   },
   "signal_counts": {
-    "bullish": 34,
+    "bullish": 36,
     "bearish": 6,
-    "neutral": 19
+    "neutral": 17
   }
 }
