@@ -1,8 +1,8 @@
 {
-  "date": "2026-06-05",
+  "date": "2026-06-06",
   "combo_score": -0.0069444444444444475,
   "exposure": 0.5,
-  "btc_price": 62306.5390625,
+  "btc_price": 60816.6484375,
   "signals": {
     "MVRV": {
       "value": -1,
@@ -77,7 +77,7 @@
       "category": "On-chain"
     },
     "Coinbase_Prem": {
-      "value": 1,
+      "value": 0,
       "category": "On-chain"
     },
     "NRPL": {
@@ -97,7 +97,7 @@
       "category": "On-chain"
     },
     "RealVol_90": {
-      "value": -1,
+      "value": 0,
       "category": "On-chain"
     },
     "LR_1Y": {
@@ -109,7 +109,7 @@
       "category": "On-chain"
     },
     "VIX": {
-      "value": 0,
+      "value": -1,
       "category": "On-chain"
     },
     "DXY": {
@@ -117,7 +117,7 @@
       "category": "On-chain"
     },
     "SP500_Trend": {
-      "value": -1,
+      "value": 0,
       "category": "Technical"
     },
     "Gold_90d": {
@@ -157,7 +157,7 @@
       "category": "Technical"
     },
     "Zscore_SMA90_daily": {
-      "value": 0,
+      "value": -1,
       "category": "Technical"
     },
     "Zscore_SMA200_daily": {
@@ -243,7 +243,7 @@
   },
   "signal_counts": {
     "bullish": 36,
-    "bearish": 6,
-    "neutral": 17
+    "bearish": 5,
+    "neutral": 18
   }
 }
