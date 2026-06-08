@@ -1,23 +1,23 @@
 {
-  "date": "2026-06-07",
-  "combo_score": -0.0069444444444444475,
+  "date": "2026-06-08",
+  "combo_score": 0.004629629629629629,
   "exposure": 0.5,
-  "btc_price": 62496.69921875,
+  "btc_price": 62972.0,
   "signals": {
     "MVRV": {
       "value": -1,
       "category": "On-chain"
     },
     "SOPR": {
-      "value": -1,
+      "value": 0,
       "category": "On-chain"
     },
     "SOPR_Adj": {
-      "value": -1,
+      "value": 0,
       "category": "On-chain"
     },
     "STH_SOPR": {
-      "value": -1,
+      "value": 0,
       "category": "On-chain"
     },
     "LTH_SOPR": {
@@ -29,7 +29,7 @@
       "category": "On-chain"
     },
     "NVM": {
-      "value": 0,
+      "value": 1,
       "category": "On-chain"
     },
     "S2F_Dev": {
@@ -45,7 +45,7 @@
       "category": "On-chain"
     },
     "Whale_Ratio": {
-      "value": 0,
+      "value": 1,
       "category": "On-chain"
     },
     "MPI": {
@@ -77,11 +77,11 @@
       "category": "On-chain"
     },
     "Coinbase_Prem": {
-      "value": 1,
+      "value": 0,
       "category": "On-chain"
     },
     "NRPL": {
-      "value": -1,
+      "value": 0,
       "category": "On-chain"
     },
     "MVRV_Proxy": {
@@ -97,7 +97,7 @@
       "category": "On-chain"
     },
     "RealVol_90": {
-      "value": -1,
+      "value": 0,
       "category": "On-chain"
     },
     "LR_1Y": {
@@ -109,7 +109,7 @@
       "category": "On-chain"
     },
     "VIX": {
-      "value": -1,
+      "value": 0,
       "category": "On-chain"
     },
     "DXY": {
@@ -242,8 +242,8 @@
     }
   },
   "signal_counts": {
-    "bullish": 35,
-    "bearish": 5,
-    "neutral": 19
+    "bullish": 29,
+    "bearish": 6,
+    "neutral": 24
   }
 }
