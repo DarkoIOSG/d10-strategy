@@ -1,8 +1,8 @@
 {
-  "date": "2026-06-09",
+  "date": "2026-06-10",
   "combo_score": 0.004629629629629629,
   "exposure": 0.5,
-  "btc_price": 62756.7109375,
+  "btc_price": 60968.8515625,
   "signals": {
     "MVRV": {
       "value": -1,
@@ -17,7 +17,7 @@
       "category": "On-chain"
     },
     "STH_SOPR": {
-      "value": 0,
+      "value": -1,
       "category": "On-chain"
     },
     "LTH_SOPR": {
@@ -45,7 +45,7 @@
       "category": "On-chain"
     },
     "Whale_Ratio": {
-      "value": 1,
+      "value": 0,
       "category": "On-chain"
     },
     "MPI": {
@@ -61,7 +61,7 @@
       "category": "On-chain"
     },
     "Dormancy": {
-      "value": -1,
+      "value": 0,
       "category": "On-chain"
     },
     "Lev_Ratio": {
@@ -77,7 +77,7 @@
       "category": "On-chain"
     },
     "Coinbase_Prem": {
-      "value": 0,
+      "value": 1,
       "category": "On-chain"
     },
     "NRPL": {
@@ -109,7 +109,7 @@
       "category": "On-chain"
     },
     "VIX": {
-      "value": 0,
+      "value": -1,
       "category": "On-chain"
     },
     "DXY": {
@@ -157,7 +157,7 @@
       "category": "Technical"
     },
     "Zscore_SMA90_daily": {
-      "value": 0,
+      "value": -1,
       "category": "Technical"
     },
     "Zscore_SMA200_daily": {
@@ -242,8 +242,8 @@
     }
   },
   "signal_counts": {
-    "bullish": 33,
+    "bullish": 35,
     "bearish": 6,
-    "neutral": 20
+    "neutral": 18
   }
 }
