@@ -1,8 +1,8 @@
 {
-  "date": "2026-06-12",
+  "date": "2026-06-13",
   "combo_score": -0.0601851851851852,
   "exposure": 0.5,
-  "btc_price": 63705.8515625,
+  "btc_price": 63746.0,
   "signals": {
     "MVRV": {
       "value": -1,
@@ -45,7 +45,7 @@
       "category": "On-chain"
     },
     "Whale_Ratio": {
-      "value": 0,
+      "value": 1,
       "category": "On-chain"
     },
     "MPI": {
@@ -61,7 +61,7 @@
       "category": "On-chain"
     },
     "Dormancy": {
-      "value": 0,
+      "value": -1,
       "category": "On-chain"
     },
     "Lev_Ratio": {
@@ -242,8 +242,8 @@
     }
   },
   "signal_counts": {
-    "bullish": 28,
-    "bearish": 5,
-    "neutral": 26
+    "bullish": 29,
+    "bearish": 6,
+    "neutral": 24
   }
 }
