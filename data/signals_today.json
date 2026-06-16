@@ -1,19 +1,19 @@
 {
-  "date": "2026-06-15",
-  "combo_score": -0.12500000000000003,
+  "date": "2026-06-16",
+  "combo_score": 0.06944444444444445,
   "exposure": 0.6,
-  "btc_price": 66563.5625,
+  "btc_price": 66347.671875,
   "signals": {
     "MVRV": {
       "value": -1,
       "category": "On-chain"
     },
     "SOPR": {
-      "value": 0,
+      "value": -1,
       "category": "On-chain"
     },
     "SOPR_Adj": {
-      "value": 0,
+      "value": -1,
       "category": "On-chain"
     },
     "STH_SOPR": {
@@ -21,19 +21,19 @@
       "category": "On-chain"
     },
     "LTH_SOPR": {
-      "value": 0,
+      "value": -1,
       "category": "On-chain"
     },
     "NVT": {
-      "value": 1,
+      "value": 0,
       "category": "On-chain"
     },
     "NVM": {
-      "value": 1,
+      "value": 0,
       "category": "On-chain"
     },
     "S2F_Dev": {
-      "value": -1,
+      "value": 0,
       "category": "On-chain"
     },
     "Exch_Reserve": {
@@ -49,15 +49,15 @@
       "category": "On-chain"
     },
     "MPI": {
-      "value": -1,
+      "value": 0,
       "category": "On-chain"
     },
     "Puell": {
-      "value": -1,
+      "value": 0,
       "category": "On-chain"
     },
     "SOPR_Ratio": {
-      "value": 0,
+      "value": -1,
       "category": "On-chain"
     },
     "Dormancy": {
@@ -81,7 +81,7 @@
       "category": "On-chain"
     },
     "NRPL": {
-      "value": 0,
+      "value": -1,
       "category": "On-chain"
     },
     "MVRV_Proxy": {
@@ -89,7 +89,7 @@
       "category": "On-chain"
     },
     "Puell_Proxy": {
-      "value": 1,
+      "value": 0,
       "category": "On-chain"
     },
     "RealVol_30": {
@@ -97,7 +97,7 @@
       "category": "On-chain"
     },
     "RealVol_90": {
-      "value": 0,
+      "value": -1,
       "category": "On-chain"
     },
     "LR_1Y": {
@@ -117,7 +117,7 @@
       "category": "On-chain"
     },
     "SP500_Trend": {
-      "value": -1,
+      "value": 0,
       "category": "Technical"
     },
     "Gold_90d": {
@@ -229,7 +229,7 @@
       "category": "Macro"
     },
     "SOFR_IORB_Spread_Sign": {
-      "value": 0,
+      "value": 1,
       "category": "Macro"
     },
     "RRP_Trend_90d": {
@@ -242,8 +242,8 @@
     }
   },
   "signal_counts": {
-    "bullish": 18,
-    "bearish": 7,
+    "bullish": 20,
+    "bearish": 5,
     "neutral": 34
   }
 }
