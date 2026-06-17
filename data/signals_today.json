@@ -1,8 +1,8 @@
 {
-  "date": "2026-06-16",
-  "combo_score": 0.06944444444444445,
+  "date": "2026-06-17",
+  "combo_score": -0.030092592592592598,
   "exposure": 0.6,
-  "btc_price": 66347.671875,
+  "btc_price": 64779.98046875,
   "signals": {
     "MVRV": {
       "value": -1,
@@ -85,7 +85,7 @@
       "category": "On-chain"
     },
     "MVRV_Proxy": {
-      "value": 0,
+      "value": -1,
       "category": "On-chain"
     },
     "Puell_Proxy": {
@@ -165,7 +165,7 @@
       "category": "Technical"
     },
     "Zscore_SMA365_daily": {
-      "value": 0,
+      "value": -1,
       "category": "Technical"
     },
     "Zscore_SMA26_weekly": {
@@ -201,7 +201,7 @@
       "category": "Technical"
     },
     "GapPct_SMA90_365d": {
-      "value": 0,
+      "value": -1,
       "category": "Technical"
     },
     "GapPct_SMA200_365d": {
@@ -229,11 +229,11 @@
       "category": "Macro"
     },
     "SOFR_IORB_Spread_Sign": {
-      "value": 1,
+      "value": -1,
       "category": "Macro"
     },
     "RRP_Trend_90d": {
-      "value": -1,
+      "value": 1,
       "category": "Macro"
     },
     "PPI_vs_CPI": {
@@ -242,8 +242,8 @@
     }
   },
   "signal_counts": {
-    "bullish": 20,
+    "bullish": 23,
     "bearish": 5,
-    "neutral": 34
+    "neutral": 31
   }
 }
