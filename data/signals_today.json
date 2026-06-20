@@ -1,8 +1,8 @@
 {
-  "date": "2026-06-19",
-  "combo_score": -0.053240740740740755,
+  "date": "2026-06-20",
+  "combo_score": -0.05092592592592594,
   "exposure": 0.5,
-  "btc_price": 62596.87109375,
+  "btc_price": 63609.2890625,
   "signals": {
     "MVRV": {
       "value": -1,
@@ -17,7 +17,7 @@
       "category": "On-chain"
     },
     "STH_SOPR": {
-      "value": -1,
+      "value": 0,
       "category": "On-chain"
     },
     "LTH_SOPR": {
@@ -29,11 +29,11 @@
       "category": "On-chain"
     },
     "NVM": {
-      "value": 0,
+      "value": 1,
       "category": "On-chain"
     },
     "S2F_Dev": {
-      "value": 0,
+      "value": -1,
       "category": "On-chain"
     },
     "Exch_Reserve": {
@@ -45,7 +45,7 @@
       "category": "On-chain"
     },
     "Whale_Ratio": {
-      "value": 0,
+      "value": 1,
       "category": "On-chain"
     },
     "MPI": {
@@ -53,7 +53,7 @@
       "category": "On-chain"
     },
     "Puell": {
-      "value": 0,
+      "value": -1,
       "category": "On-chain"
     },
     "SOPR_Ratio": {
@@ -89,7 +89,7 @@
       "category": "On-chain"
     },
     "Puell_Proxy": {
-      "value": 0,
+      "value": -1,
       "category": "On-chain"
     },
     "RealVol_30": {
@@ -97,7 +97,7 @@
       "category": "On-chain"
     },
     "RealVol_90": {
-      "value": 0,
+      "value": -1,
       "category": "On-chain"
     },
     "LR_1Y": {
@@ -153,7 +153,7 @@
       "category": "Technical"
     },
     "Zscore_SMA50_daily": {
-      "value": -1,
+      "value": 0,
       "category": "Technical"
     },
     "Zscore_SMA90_daily": {
@@ -242,8 +242,8 @@
     }
   },
   "signal_counts": {
-    "bullish": 28,
-    "bearish": 3,
-    "neutral": 28
+    "bullish": 30,
+    "bearish": 5,
+    "neutral": 24
   }
 }
