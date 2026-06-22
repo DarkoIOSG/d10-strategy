@@ -1,15 +1,15 @@
 {
-  "date": "2026-06-21",
-  "combo_score": -0.041666666666666685,
+  "date": "2026-06-22",
+  "combo_score": -0.048611111111111126,
   "exposure": 0.5,
-  "btc_price": 64328.69140625,
+  "btc_price": 65017.2109375,
   "signals": {
     "MVRV": {
       "value": -1,
       "category": "On-chain"
     },
     "SOPR": {
-      "value": 0,
+      "value": 1,
       "category": "On-chain"
     },
     "SOPR_Adj": {
@@ -21,11 +21,11 @@
       "category": "On-chain"
     },
     "LTH_SOPR": {
-      "value": -1,
+      "value": 1,
       "category": "On-chain"
     },
     "NVT": {
-      "value": 1,
+      "value": 0,
       "category": "On-chain"
     },
     "NVM": {
@@ -33,7 +33,7 @@
       "category": "On-chain"
     },
     "S2F_Dev": {
-      "value": 0,
+      "value": -1,
       "category": "On-chain"
     },
     "Exch_Reserve": {
@@ -53,15 +53,15 @@
       "category": "On-chain"
     },
     "Puell": {
-      "value": 0,
+      "value": -1,
       "category": "On-chain"
     },
     "SOPR_Ratio": {
-      "value": -1,
+      "value": 1,
       "category": "On-chain"
     },
     "Dormancy": {
-      "value": -1,
+      "value": 1,
       "category": "On-chain"
     },
     "Lev_Ratio": {
@@ -85,7 +85,7 @@
       "category": "On-chain"
     },
     "MVRV_Proxy": {
-      "value": -1,
+      "value": 0,
       "category": "On-chain"
     },
     "Puell_Proxy": {
@@ -242,8 +242,8 @@
     }
   },
   "signal_counts": {
-    "bullish": 23,
-    "bearish": 6,
-    "neutral": 30
+    "bullish": 21,
+    "bearish": 9,
+    "neutral": 29
   }
 }
