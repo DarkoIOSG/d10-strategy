@@ -1,8 +1,8 @@
 {
-  "date": "2026-06-24",
-  "combo_score": -0.1125,
+  "date": "2026-06-25",
+  "combo_score": -0.03703703703703704,
   "exposure": 0.5,
-  "btc_price": 62475.6015625,
+  "btc_price": 61430.66015625,
   "signals": {
     "MVRV": {
       "value": -1,
@@ -33,7 +33,7 @@
       "category": "On-chain"
     },
     "S2F_Dev": {
-      "value": 0,
+      "value": -1,
       "category": "On-chain"
     },
     "Exch_Reserve": {
@@ -45,7 +45,7 @@
       "category": "On-chain"
     },
     "Whale_Ratio": {
-      "value": 0,
+      "value": 1,
       "category": "On-chain"
     },
     "MPI": {
@@ -53,7 +53,7 @@
       "category": "On-chain"
     },
     "Puell": {
-      "value": 0,
+      "value": -1,
       "category": "On-chain"
     },
     "SOPR_Ratio": {
@@ -65,7 +65,7 @@
       "category": "On-chain"
     },
     "Lev_Ratio": {
-      "value": 0,
+      "value": 1,
       "category": "On-chain"
     },
     "SSR": {
@@ -73,7 +73,7 @@
       "category": "On-chain"
     },
     "Open_Interest": {
-      "value": -1,
+      "value": 0,
       "category": "On-chain"
     },
     "Coinbase_Prem": {
@@ -153,7 +153,7 @@
       "category": "Technical"
     },
     "Zscore_SMA50_daily": {
-      "value": 0,
+      "value": -1,
       "category": "Technical"
     },
     "Zscore_SMA90_daily": {
@@ -242,8 +242,8 @@
     }
   },
   "signal_counts": {
-    "bullish": 27,
-    "bearish": 4,
-    "neutral": 28
+    "bullish": 29,
+    "bearish": 6,
+    "neutral": 24
   }
 }
