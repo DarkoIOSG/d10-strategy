@@ -1,23 +1,23 @@
 {
-  "date": "2026-06-27",
-  "combo_score": 0.01388888888888889,
+  "date": "2026-06-28",
+  "combo_score": -0.05833333333333333,
   "exposure": 0.5,
-  "btc_price": 60334.0,
+  "btc_price": 60012.6796875,
   "signals": {
     "MVRV": {
       "value": -1,
       "category": "On-chain"
     },
     "SOPR": {
-      "value": -1,
+      "value": 0,
       "category": "On-chain"
     },
     "SOPR_Adj": {
-      "value": -1,
+      "value": 0,
       "category": "On-chain"
     },
     "STH_SOPR": {
-      "value": -1,
+      "value": 0,
       "category": "On-chain"
     },
     "LTH_SOPR": {
@@ -25,15 +25,15 @@
       "category": "On-chain"
     },
     "NVT": {
-      "value": -1,
-      "category": "On-chain"
-    },
-    "NVM": {
       "value": 0,
       "category": "On-chain"
     },
+    "NVM": {
+      "value": 1,
+      "category": "On-chain"
+    },
     "S2F_Dev": {
-      "value": -1,
+      "value": 0,
       "category": "On-chain"
     },
     "Exch_Reserve": {
@@ -49,11 +49,11 @@
       "category": "On-chain"
     },
     "MPI": {
-      "value": 1,
+      "value": -1,
       "category": "On-chain"
     },
     "Puell": {
-      "value": -1,
+      "value": 0,
       "category": "On-chain"
     },
     "SOPR_Ratio": {
@@ -73,7 +73,7 @@
       "category": "On-chain"
     },
     "Open_Interest": {
-      "value": 0,
+      "value": -1,
       "category": "On-chain"
     },
     "Coinbase_Prem": {
@@ -81,7 +81,7 @@
       "category": "On-chain"
     },
     "NRPL": {
-      "value": -1,
+      "value": 0,
       "category": "On-chain"
     },
     "MVRV_Proxy": {
@@ -242,8 +242,8 @@
     }
   },
   "signal_counts": {
-    "bullish": 33,
+    "bullish": 28,
     "bearish": 7,
-    "neutral": 19
+    "neutral": 24
   }
 }
