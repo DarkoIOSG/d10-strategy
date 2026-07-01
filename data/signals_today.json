@@ -1,8 +1,8 @@
 {
-  "date": "2026-06-30",
-  "combo_score": -0.06759259259259258,
+  "date": "2026-07-01",
+  "combo_score": 0.016203703703703703,
   "exposure": 0.5,
-  "btc_price": 59248.1484375,
+  "btc_price": 58624.6484375,
   "signals": {
     "MVRV": {
       "value": -1,
@@ -45,11 +45,11 @@
       "category": "On-chain"
     },
     "Whale_Ratio": {
-      "value": 1,
+      "value": 0,
       "category": "On-chain"
     },
     "MPI": {
-      "value": 1,
+      "value": 0,
       "category": "On-chain"
     },
     "Puell": {
@@ -73,7 +73,7 @@
       "category": "On-chain"
     },
     "Open_Interest": {
-      "value": -1,
+      "value": 0,
       "category": "On-chain"
     },
     "Coinbase_Prem": {
@@ -242,8 +242,8 @@
     }
   },
   "signal_counts": {
-    "bullish": 34,
-    "bearish": 8,
-    "neutral": 17
+    "bullish": 33,
+    "bearish": 6,
+    "neutral": 20
   }
 }
