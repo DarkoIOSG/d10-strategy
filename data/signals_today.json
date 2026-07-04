@@ -1,8 +1,8 @@
 {
-  "date": "2026-07-03",
-  "combo_score": 0.15879629629629632,
+  "date": "2026-07-04",
+  "combo_score": 0.1564814814814815,
   "exposure": 0.4,
-  "btc_price": 61686.1484375,
+  "btc_price": 62410.05078125,
   "signals": {
     "MVRV": {
       "value": -1,
@@ -205,7 +205,7 @@
       "category": "Technical"
     },
     "GapPct_SMA200_365d": {
-      "value": -1,
+      "value": 0,
       "category": "Technical"
     },
     "GapPct_SMA365_365d": {
@@ -213,7 +213,7 @@
       "category": "Technical"
     },
     "GapPct_EMA90_365d": {
-      "value": -1,
+      "value": 0,
       "category": "Technical"
     },
     "GapPct_EMA200_365d": {
@@ -242,8 +242,8 @@
     }
   },
   "signal_counts": {
-    "bullish": 28,
+    "bullish": 26,
     "bearish": 6,
-    "neutral": 25
+    "neutral": 27
   }
 }
