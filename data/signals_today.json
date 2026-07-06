@@ -1,8 +1,8 @@
 {
-  "date": "2026-07-05",
-  "combo_score": 0.1564814814814815,
+  "date": "2026-07-06",
+  "combo_score": -0.04629629629629631,
   "exposure": 0.4,
-  "btc_price": 62610.87109375,
+  "btc_price": 62037.6796875,
   "signals": {
     "MVRV": {
       "value": -1,
@@ -25,11 +25,11 @@
       "category": "On-chain"
     },
     "NVT": {
-      "value": 0,
+      "value": 1,
       "category": "On-chain"
     },
     "NVM": {
-      "value": 0,
+      "value": 1,
       "category": "On-chain"
     },
     "S2F_Dev": {
@@ -45,11 +45,11 @@
       "category": "On-chain"
     },
     "Whale_Ratio": {
-      "value": 0,
+      "value": 1,
       "category": "On-chain"
     },
     "MPI": {
-      "value": 0,
+      "value": -1,
       "category": "On-chain"
     },
     "Puell": {
@@ -185,7 +185,7 @@
       "category": "Technical"
     },
     "Zscore_EMA365_daily": {
-      "value": 0,
+      "value": -1,
       "category": "Technical"
     },
     "Zscore_EMA26_weekly": {
@@ -213,7 +213,7 @@
       "category": "Technical"
     },
     "GapPct_EMA90_365d": {
-      "value": 0,
+      "value": -1,
       "category": "Technical"
     },
     "GapPct_EMA200_365d": {
@@ -229,7 +229,7 @@
       "category": "Macro"
     },
     "SOFR_IORB_Spread_Sign": {
-      "value": 1,
+      "value": -1,
       "category": "Macro"
     },
     "RRP_Trend_90d": {
@@ -242,8 +242,8 @@
     }
   },
   "signal_counts": {
-    "bullish": 22,
-    "bearish": 5,
-    "neutral": 32
+    "bullish": 26,
+    "bearish": 7,
+    "neutral": 26
   }
 }
