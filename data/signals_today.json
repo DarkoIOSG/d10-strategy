@@ -1,19 +1,19 @@
 {
-  "date": "2026-07-08",
-  "combo_score": -0.018518518518518517,
+  "date": "2026-07-09",
+  "combo_score": -0.020833333333333336,
   "exposure": 0.5,
-  "btc_price": 61880.80078125,
+  "btc_price": 62670.23828125,
   "signals": {
     "MVRV": {
       "value": -1,
       "category": "On-chain"
     },
     "SOPR": {
-      "value": 0,
+      "value": -1,
       "category": "On-chain"
     },
     "SOPR_Adj": {
-      "value": 0,
+      "value": -1,
       "category": "On-chain"
     },
     "STH_SOPR": {
@@ -61,11 +61,11 @@
       "category": "On-chain"
     },
     "Dormancy": {
-      "value": 0,
+      "value": -1,
       "category": "On-chain"
     },
     "Lev_Ratio": {
-      "value": -1,
+      "value": 1,
       "category": "On-chain"
     },
     "SSR": {
@@ -81,15 +81,15 @@
       "category": "On-chain"
     },
     "NRPL": {
-      "value": 0,
-      "category": "On-chain"
-    },
-    "MVRV_Proxy": {
       "value": -1,
       "category": "On-chain"
     },
-    "Puell_Proxy": {
+    "MVRV_Proxy": {
       "value": 0,
+      "category": "On-chain"
+    },
+    "Puell_Proxy": {
+      "value": -1,
       "category": "On-chain"
     },
     "RealVol_30": {
@@ -185,7 +185,7 @@
       "category": "Technical"
     },
     "Zscore_EMA365_daily": {
-      "value": -1,
+      "value": 0,
       "category": "Technical"
     },
     "Zscore_EMA26_weekly": {
@@ -242,8 +242,8 @@
     }
   },
   "signal_counts": {
-    "bullish": 24,
-    "bearish": 4,
-    "neutral": 31
+    "bullish": 26,
+    "bearish": 5,
+    "neutral": 28
   }
 }
