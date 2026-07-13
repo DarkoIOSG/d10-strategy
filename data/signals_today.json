@@ -1,8 +1,8 @@
 {
-  "date": "2026-07-12",
-  "combo_score": -0.05324074074074074,
+  "date": "2026-07-13",
+  "combo_score": -0.05787037037037038,
   "exposure": 0.5,
-  "btc_price": 63956.328125,
+  "btc_price": 63995.73828125,
   "signals": {
     "MVRV": {
       "value": -1,
@@ -21,7 +21,7 @@
       "category": "On-chain"
     },
     "LTH_SOPR": {
-      "value": -1,
+      "value": 0,
       "category": "On-chain"
     },
     "NVT": {
@@ -29,7 +29,7 @@
       "category": "On-chain"
     },
     "NVM": {
-      "value": 0,
+      "value": 1,
       "category": "On-chain"
     },
     "S2F_Dev": {
@@ -57,11 +57,11 @@
       "category": "On-chain"
     },
     "SOPR_Ratio": {
-      "value": -1,
+      "value": 0,
       "category": "On-chain"
     },
     "Dormancy": {
-      "value": -1,
+      "value": 0,
       "category": "On-chain"
     },
     "Lev_Ratio": {
@@ -109,7 +109,7 @@
       "category": "On-chain"
     },
     "VIX": {
-      "value": 1,
+      "value": 0,
       "category": "On-chain"
     },
     "DXY": {
@@ -242,8 +242,8 @@
     }
   },
   "signal_counts": {
-    "bullish": 22,
+    "bullish": 19,
     "bearish": 5,
-    "neutral": 32
+    "neutral": 35
   }
 }
