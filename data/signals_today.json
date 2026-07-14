@@ -1,35 +1,35 @@
 {
   "date": "2026-07-13",
-  "combo_score": -0.05787037037037038,
+  "combo_score": -0.05324074074074074,
   "exposure": 0.5,
-  "btc_price": 63995.73828125,
+  "btc_price": 62239.12109375,
   "signals": {
     "MVRV": {
       "value": -1,
       "category": "On-chain"
     },
     "SOPR": {
-      "value": 0,
+      "value": -1,
       "category": "On-chain"
     },
     "SOPR_Adj": {
-      "value": 0,
+      "value": -1,
       "category": "On-chain"
     },
     "STH_SOPR": {
-      "value": 0,
+      "value": -1,
       "category": "On-chain"
     },
     "LTH_SOPR": {
-      "value": 0,
+      "value": -1,
       "category": "On-chain"
     },
     "NVT": {
-      "value": 0,
+      "value": -1,
       "category": "On-chain"
     },
     "NVM": {
-      "value": 1,
+      "value": 0,
       "category": "On-chain"
     },
     "S2F_Dev": {
@@ -41,15 +41,15 @@
       "category": "On-chain"
     },
     "Exch_Netflow": {
-      "value": 0,
+      "value": 1,
       "category": "On-chain"
     },
     "Whale_Ratio": {
-      "value": 0,
+      "value": 1,
       "category": "On-chain"
     },
     "MPI": {
-      "value": -1,
+      "value": 1,
       "category": "On-chain"
     },
     "Puell": {
@@ -57,7 +57,7 @@
       "category": "On-chain"
     },
     "SOPR_Ratio": {
-      "value": 0,
+      "value": -1,
       "category": "On-chain"
     },
     "Dormancy": {
@@ -81,7 +81,7 @@
       "category": "On-chain"
     },
     "NRPL": {
-      "value": 0,
+      "value": -1,
       "category": "On-chain"
     },
     "MVRV_Proxy": {
@@ -89,7 +89,7 @@
       "category": "On-chain"
     },
     "Puell_Proxy": {
-      "value": -1,
+      "value": 0,
       "category": "On-chain"
     },
     "RealVol_30": {
@@ -165,7 +165,7 @@
       "category": "Technical"
     },
     "Zscore_SMA365_daily": {
-      "value": 0,
+      "value": -1,
       "category": "Technical"
     },
     "Zscore_SMA26_weekly": {
@@ -201,7 +201,7 @@
       "category": "Technical"
     },
     "GapPct_SMA90_365d": {
-      "value": 0,
+      "value": -1,
       "category": "Technical"
     },
     "GapPct_SMA200_365d": {
@@ -242,8 +242,8 @@
     }
   },
   "signal_counts": {
-    "bullish": 19,
-    "bearish": 5,
-    "neutral": 35
+    "bullish": 26,
+    "bearish": 7,
+    "neutral": 26
   }
 }
