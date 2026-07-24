@@ -1,8 +1,8 @@
 {
-  "date": "2026-07-23",
-  "combo_score": -0.05092592592592593,
+  "date": "2026-07-24",
+  "combo_score": -0.04861111111111112,
   "exposure": 0.5,
-  "btc_price": 65677.3203125,
+  "btc_price": 64948.58984375,
   "signals": {
     "MVRV": {
       "value": -1,
@@ -25,7 +25,7 @@
       "category": "On-chain"
     },
     "NVT": {
-      "value": 0,
+      "value": -1,
       "category": "On-chain"
     },
     "NVM": {
@@ -61,7 +61,7 @@
       "category": "On-chain"
     },
     "Dormancy": {
-      "value": 0,
+      "value": -1,
       "category": "On-chain"
     },
     "Lev_Ratio": {
@@ -77,7 +77,7 @@
       "category": "On-chain"
     },
     "Coinbase_Prem": {
-      "value": 0,
+      "value": 1,
       "category": "On-chain"
     },
     "NRPL": {
@@ -153,7 +153,7 @@
       "category": "Technical"
     },
     "Zscore_SMA50_daily": {
-      "value": 1,
+      "value": 0,
       "category": "Technical"
     },
     "Zscore_SMA90_daily": {
@@ -242,8 +242,8 @@
     }
   },
   "signal_counts": {
-    "bullish": 17,
+    "bullish": 19,
     "bearish": 6,
-    "neutral": 36
+    "neutral": 34
   }
 }
