@@ -1,8 +1,8 @@
 {
-  "date": "2026-07-30",
-  "combo_score": -0.14120370370370372,
+  "date": "2026-07-31",
+  "combo_score": -0.13194444444444445,
   "exposure": 0.5,
-  "btc_price": 64519.51171875,
+  "btc_price": 63781.62109375,
   "signals": {
     "MVRV": {
       "value": -1,
@@ -33,7 +33,7 @@
       "category": "On-chain"
     },
     "S2F_Dev": {
-      "value": -1,
+      "value": 0,
       "category": "On-chain"
     },
     "Exch_Reserve": {
@@ -41,11 +41,11 @@
       "category": "On-chain"
     },
     "Exch_Netflow": {
-      "value": 0,
+      "value": 1,
       "category": "On-chain"
     },
     "Whale_Ratio": {
-      "value": 0,
+      "value": 1,
       "category": "On-chain"
     },
     "MPI": {
@@ -145,7 +145,7 @@
       "category": "Technical"
     },
     "MABreak_EMA_daily_50_100_200_365": {
-      "value": 0,
+      "value": 1,
       "category": "Technical"
     },
     "MABreak_EMA_weekly_4_13_26_52": {
@@ -161,7 +161,7 @@
       "category": "Technical"
     },
     "Zscore_SMA200_daily": {
-      "value": 1,
+      "value": 0,
       "category": "Technical"
     },
     "Zscore_SMA365_daily": {
@@ -242,8 +242,8 @@
     }
   },
   "signal_counts": {
-    "bullish": 16,
-    "bearish": 5,
-    "neutral": 38
+    "bullish": 15,
+    "bearish": 7,
+    "neutral": 37
   }
 }
