@@ -1,23 +1,23 @@
 {
-  "date": "2026-07-31",
+  "date": "2026-08-01",
   "combo_score": -0.13194444444444445,
   "exposure": 0.5,
-  "btc_price": 63781.62109375,
+  "btc_price": 63012.96875,
   "signals": {
     "MVRV": {
       "value": -1,
       "category": "On-chain"
     },
     "SOPR": {
-      "value": 0,
+      "value": -1,
       "category": "On-chain"
     },
     "SOPR_Adj": {
-      "value": 0,
+      "value": -1,
       "category": "On-chain"
     },
     "STH_SOPR": {
-      "value": 0,
+      "value": -1,
       "category": "On-chain"
     },
     "LTH_SOPR": {
@@ -29,7 +29,7 @@
       "category": "On-chain"
     },
     "NVM": {
-      "value": 0,
+      "value": -1,
       "category": "On-chain"
     },
     "S2F_Dev": {
@@ -41,7 +41,7 @@
       "category": "On-chain"
     },
     "Exch_Netflow": {
-      "value": 1,
+      "value": 0,
       "category": "On-chain"
     },
     "Whale_Ratio": {
@@ -61,7 +61,7 @@
       "category": "On-chain"
     },
     "Dormancy": {
-      "value": 0,
+      "value": 1,
       "category": "On-chain"
     },
     "Lev_Ratio": {
@@ -69,7 +69,7 @@
       "category": "On-chain"
     },
     "SSR": {
-      "value": 0,
+      "value": -1,
       "category": "On-chain"
     },
     "Open_Interest": {
@@ -81,7 +81,7 @@
       "category": "On-chain"
     },
     "NRPL": {
-      "value": 0,
+      "value": -1,
       "category": "On-chain"
     },
     "MVRV_Proxy": {
@@ -242,8 +242,8 @@
     }
   },
   "signal_counts": {
-    "bullish": 15,
+    "bullish": 21,
     "bearish": 7,
-    "neutral": 37
+    "neutral": 31
   }
 }
