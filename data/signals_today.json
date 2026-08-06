@@ -1,15 +1,15 @@
 {
-  "date": "2026-08-05",
-  "combo_score": -0.14814814814814817,
+  "date": "2026-08-06",
+  "combo_score": 0.15098039215686276,
   "exposure": 0.3,
-  "btc_price": 64126.69140625,
+  "btc_price": 64607.328125,
   "signals": {
     "MVRV": {
       "value": -1,
       "category": "On-chain"
     },
     "SOPR": {
-      "value": 0,
+      "value": -1,
       "category": "On-chain"
     },
     "SOPR_Adj": {
@@ -45,7 +45,7 @@
       "category": "On-chain"
     },
     "Whale_Ratio": {
-      "value": 0,
+      "value": -1,
       "category": "On-chain"
     },
     "MPI": {
@@ -61,7 +61,7 @@
       "category": "On-chain"
     },
     "Dormancy": {
-      "value": 1,
+      "value": 0,
       "category": "On-chain"
     },
     "Lev_Ratio": {
@@ -81,7 +81,7 @@
       "category": "On-chain"
     },
     "NRPL": {
-      "value": 0,
+      "value": -1,
       "category": "On-chain"
     },
     "MVRV_Proxy": {
@@ -209,7 +209,7 @@
       "category": "Technical"
     },
     "GapPct_SMA365_365d": {
-      "value": -1,
+      "value": 0,
       "category": "Technical"
     },
     "GapPct_EMA90_365d": {
@@ -221,7 +221,7 @@
       "category": "Technical"
     },
     "GapPct_EMA365_365d": {
-      "value": -1,
+      "value": 0,
       "category": "Technical"
     },
     "FFR_vs_MA365": {
@@ -229,7 +229,7 @@
       "category": "Macro"
     },
     "SOFR_IORB_Spread_Sign": {
-      "value": 0,
+      "value": 1,
       "category": "Macro"
     },
     "RRP_Trend_90d": {
@@ -242,8 +242,8 @@
     }
   },
   "signal_counts": {
-    "bullish": 18,
+    "bullish": 19,
     "bearish": 7,
-    "neutral": 34
+    "neutral": 33
   }
 }
