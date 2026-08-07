@@ -1,19 +1,19 @@
 {
-  "date": "2026-08-06",
-  "combo_score": 0.15098039215686276,
-  "exposure": 0.3,
-  "btc_price": 64607.328125,
+  "date": "2026-08-07",
+  "combo_score": -0.09259259259259259,
+  "exposure": 0.5,
+  "btc_price": 64535.41015625,
   "signals": {
     "MVRV": {
       "value": -1,
       "category": "On-chain"
     },
     "SOPR": {
-      "value": -1,
+      "value": 0,
       "category": "On-chain"
     },
     "SOPR_Adj": {
-      "value": -1,
+      "value": 0,
       "category": "On-chain"
     },
     "STH_SOPR": {
@@ -21,7 +21,7 @@
       "category": "On-chain"
     },
     "LTH_SOPR": {
-      "value": -1,
+      "value": 0,
       "category": "On-chain"
     },
     "NVT": {
@@ -29,7 +29,7 @@
       "category": "On-chain"
     },
     "NVM": {
-      "value": -1,
+      "value": 0,
       "category": "On-chain"
     },
     "S2F_Dev": {
@@ -45,7 +45,7 @@
       "category": "On-chain"
     },
     "Whale_Ratio": {
-      "value": -1,
+      "value": 1,
       "category": "On-chain"
     },
     "MPI": {
@@ -53,11 +53,11 @@
       "category": "On-chain"
     },
     "Puell": {
-      "value": 0,
+      "value": -1,
       "category": "On-chain"
     },
     "SOPR_Ratio": {
-      "value": -1,
+      "value": 0,
       "category": "On-chain"
     },
     "Dormancy": {
@@ -81,7 +81,7 @@
       "category": "On-chain"
     },
     "NRPL": {
-      "value": -1,
+      "value": 0,
       "category": "On-chain"
     },
     "MVRV_Proxy": {
@@ -109,7 +109,7 @@
       "category": "On-chain"
     },
     "VIX": {
-      "value": 0,
+      "value": 1,
       "category": "On-chain"
     },
     "DXY": {
@@ -141,7 +141,7 @@
       "category": "Technical"
     },
     "MABreak_EMA_daily_30_90_180_365": {
-      "value": 1,
+      "value": 0,
       "category": "Technical"
     },
     "MABreak_EMA_daily_50_100_200_365": {
@@ -229,7 +229,7 @@
       "category": "Macro"
     },
     "SOFR_IORB_Spread_Sign": {
-      "value": 1,
+      "value": -1,
       "category": "Macro"
     },
     "RRP_Trend_90d": {
@@ -242,8 +242,8 @@
     }
   },
   "signal_counts": {
-    "bullish": 19,
+    "bullish": 14,
     "bearish": 7,
-    "neutral": 33
+    "neutral": 38
   }
 }
