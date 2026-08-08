@@ -1,19 +1,19 @@
 {
-  "date": "2026-08-07",
-  "combo_score": -0.09259259259259259,
-  "exposure": 0.5,
-  "btc_price": 64535.41015625,
+  "date": "2026-08-08",
+  "combo_score": -0.1712962962962963,
+  "exposure": 0.6,
+  "btc_price": 64960.8984375,
   "signals": {
     "MVRV": {
       "value": -1,
       "category": "On-chain"
     },
     "SOPR": {
-      "value": 0,
+      "value": -1,
       "category": "On-chain"
     },
     "SOPR_Adj": {
-      "value": 0,
+      "value": -1,
       "category": "On-chain"
     },
     "STH_SOPR": {
@@ -21,7 +21,7 @@
       "category": "On-chain"
     },
     "LTH_SOPR": {
-      "value": 0,
+      "value": -1,
       "category": "On-chain"
     },
     "NVT": {
@@ -29,11 +29,11 @@
       "category": "On-chain"
     },
     "NVM": {
-      "value": 0,
+      "value": -1,
       "category": "On-chain"
     },
     "S2F_Dev": {
-      "value": -1,
+      "value": 0,
       "category": "On-chain"
     },
     "Exch_Reserve": {
@@ -53,11 +53,11 @@
       "category": "On-chain"
     },
     "Puell": {
-      "value": -1,
+      "value": 0,
       "category": "On-chain"
     },
     "SOPR_Ratio": {
-      "value": 0,
+      "value": -1,
       "category": "On-chain"
     },
     "Dormancy": {
@@ -77,11 +77,11 @@
       "category": "On-chain"
     },
     "Coinbase_Prem": {
-      "value": 1,
+      "value": 0,
       "category": "On-chain"
     },
     "NRPL": {
-      "value": 0,
+      "value": -1,
       "category": "On-chain"
     },
     "MVRV_Proxy": {
@@ -145,7 +145,7 @@
       "category": "Technical"
     },
     "MABreak_EMA_daily_50_100_200_365": {
-      "value": 0,
+      "value": 1,
       "category": "Technical"
     },
     "MABreak_EMA_weekly_4_13_26_52": {
@@ -201,11 +201,11 @@
       "category": "Technical"
     },
     "GapPct_SMA90_365d": {
-      "value": 0,
+      "value": 1,
       "category": "Technical"
     },
     "GapPct_SMA200_365d": {
-      "value": 0,
+      "value": 1,
       "category": "Technical"
     },
     "GapPct_SMA365_365d": {
@@ -213,7 +213,7 @@
       "category": "Technical"
     },
     "GapPct_EMA90_365d": {
-      "value": 0,
+      "value": 1,
       "category": "Technical"
     },
     "GapPct_EMA200_365d": {
@@ -229,7 +229,7 @@
       "category": "Macro"
     },
     "SOFR_IORB_Spread_Sign": {
-      "value": -1,
+      "value": 0,
       "category": "Macro"
     },
     "RRP_Trend_90d": {
@@ -242,8 +242,8 @@
     }
   },
   "signal_counts": {
-    "bullish": 14,
-    "bearish": 7,
-    "neutral": 38
+    "bullish": 17,
+    "bearish": 10,
+    "neutral": 32
   }
 }
