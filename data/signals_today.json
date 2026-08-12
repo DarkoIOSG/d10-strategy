@@ -1,8 +1,8 @@
 {
-  "date": "2026-08-11",
-  "combo_score": -0.08796296296296297,
+  "date": "2026-08-12",
+  "combo_score": -0.09490740740740741,
   "exposure": 0.5,
-  "btc_price": 64042.2890625,
+  "btc_price": 63766.7890625,
   "signals": {
     "MVRV": {
       "value": -1,
@@ -53,7 +53,7 @@
       "category": "On-chain"
     },
     "Puell": {
-      "value": 0,
+      "value": -1,
       "category": "On-chain"
     },
     "SOPR_Ratio": {
@@ -81,7 +81,7 @@
       "category": "On-chain"
     },
     "NRPL": {
-      "value": 0,
+      "value": -1,
       "category": "On-chain"
     },
     "MVRV_Proxy": {
@@ -109,7 +109,7 @@
       "category": "On-chain"
     },
     "VIX": {
-      "value": 0,
+      "value": 1,
       "category": "On-chain"
     },
     "DXY": {
@@ -137,7 +137,7 @@
       "category": "Technical"
     },
     "MABreak_SMA_weekly_4_13_26_52": {
-      "value": 0,
+      "value": 1,
       "category": "Technical"
     },
     "MABreak_EMA_daily_30_90_180_365": {
@@ -205,7 +205,7 @@
       "category": "Technical"
     },
     "GapPct_SMA200_365d": {
-      "value": 0,
+      "value": 1,
       "category": "Technical"
     },
     "GapPct_SMA365_365d": {
@@ -242,8 +242,8 @@
     }
   },
   "signal_counts": {
-    "bullish": 17,
-    "bearish": 9,
-    "neutral": 33
+    "bullish": 19,
+    "bearish": 12,
+    "neutral": 28
   }
 }
