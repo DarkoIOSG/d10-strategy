@@ -1,8 +1,8 @@
 {
-  "date": "2026-08-12",
-  "combo_score": -0.09490740740740741,
+  "date": "2026-08-13",
+  "combo_score": -0.09722222222222222,
   "exposure": 0.5,
-  "btc_price": 63766.7890625,
+  "btc_price": 63632.25,
   "signals": {
     "MVRV": {
       "value": -1,
@@ -25,7 +25,7 @@
       "category": "On-chain"
     },
     "NVT": {
-      "value": 0,
+      "value": -1,
       "category": "On-chain"
     },
     "NVM": {
@@ -49,11 +49,11 @@
       "category": "On-chain"
     },
     "MPI": {
-      "value": 0,
+      "value": 1,
       "category": "On-chain"
     },
     "Puell": {
-      "value": -1,
+      "value": 0,
       "category": "On-chain"
     },
     "SOPR_Ratio": {
@@ -221,7 +221,7 @@
       "category": "Technical"
     },
     "GapPct_EMA365_365d": {
-      "value": 0,
+      "value": -1,
       "category": "Technical"
     },
     "FFR_vs_MA365": {
@@ -242,8 +242,8 @@
     }
   },
   "signal_counts": {
-    "bullish": 19,
-    "bearish": 12,
-    "neutral": 28
+    "bullish": 20,
+    "bearish": 13,
+    "neutral": 26
   }
 }
