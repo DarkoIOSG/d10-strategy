@@ -1,11 +1,11 @@
 {
-  "date": "2026-08-20",
-  "combo_score": -0.11111111111111113,
+  "date": "2026-08-21",
+  "combo_score": -0.09953703703703703,
   "exposure": 0.4,
-  "btc_price": 71225.7109375,
+  "btc_price": 77590.0,
   "signals": {
     "MVRV": {
-      "value": -1,
+      "value": 0,
       "category": "On-chain"
     },
     "SOPR": {
@@ -29,7 +29,7 @@
       "category": "On-chain"
     },
     "NVM": {
-      "value": 0,
+      "value": -1,
       "category": "On-chain"
     },
     "S2F_Dev": {
@@ -41,11 +41,11 @@
       "category": "On-chain"
     },
     "Exch_Netflow": {
-      "value": 0,
+      "value": 1,
       "category": "On-chain"
     },
     "Whale_Ratio": {
-      "value": 1,
+      "value": 0,
       "category": "On-chain"
     },
     "MPI": {
@@ -53,7 +53,7 @@
       "category": "On-chain"
     },
     "Puell": {
-      "value": -1,
+      "value": 0,
       "category": "On-chain"
     },
     "SOPR_Ratio": {
@@ -105,11 +105,11 @@
       "category": "On-chain"
     },
     "LR_2Y_Z": {
-      "value": -1,
+      "value": 0,
       "category": "On-chain"
     },
     "VIX": {
-      "value": 1,
+      "value": 0,
       "category": "On-chain"
     },
     "DXY": {
@@ -145,11 +145,11 @@
       "category": "Technical"
     },
     "MABreak_EMA_daily_50_100_200_365": {
-      "value": 0,
+      "value": -1,
       "category": "Technical"
     },
     "MABreak_EMA_weekly_4_13_26_52": {
-      "value": -1,
+      "value": 0,
       "category": "Technical"
     },
     "Zscore_SMA50_daily": {
@@ -209,7 +209,7 @@
       "category": "Technical"
     },
     "GapPct_SMA365_365d": {
-      "value": 0,
+      "value": 1,
       "category": "Technical"
     },
     "GapPct_EMA90_365d": {
@@ -221,7 +221,7 @@
       "category": "Technical"
     },
     "GapPct_EMA365_365d": {
-      "value": 0,
+      "value": 1,
       "category": "Technical"
     },
     "FFR_vs_MA365": {
@@ -229,7 +229,7 @@
       "category": "Macro"
     },
     "SOFR_IORB_Spread_Sign": {
-      "value": 0,
+      "value": -1,
       "category": "Macro"
     },
     "RRP_Trend_90d": {
@@ -242,8 +242,8 @@
     }
   },
   "signal_counts": {
-    "bullish": 16,
-    "bearish": 20,
+    "bullish": 15,
+    "bearish": 21,
     "neutral": 23
   }
 }
