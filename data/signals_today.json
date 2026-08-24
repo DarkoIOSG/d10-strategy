@@ -1,8 +1,8 @@
 {
-  "date": "2026-08-23",
+  "date": "2026-08-24",
   "combo_score": -0.08796296296296297,
-  "exposure": 0.4,
-  "btc_price": 76210.3203125,
+  "exposure": 0.5,
+  "btc_price": 77068.109375,
   "signals": {
     "MVRV": {
       "value": 0,
@@ -29,7 +29,7 @@
       "category": "On-chain"
     },
     "NVM": {
-      "value": 0,
+      "value": 1,
       "category": "On-chain"
     },
     "S2F_Dev": {
@@ -45,11 +45,11 @@
       "category": "On-chain"
     },
     "Whale_Ratio": {
-      "value": 1,
+      "value": 0,
       "category": "On-chain"
     },
     "MPI": {
-      "value": 1,
+      "value": 0,
       "category": "On-chain"
     },
     "Puell": {
@@ -61,7 +61,7 @@
       "category": "On-chain"
     },
     "Dormancy": {
-      "value": 0,
+      "value": -1,
       "category": "On-chain"
     },
     "Lev_Ratio": {
@@ -109,7 +109,7 @@
       "category": "On-chain"
     },
     "VIX": {
-      "value": 1,
+      "value": 0,
       "category": "On-chain"
     },
     "DXY": {
@@ -242,8 +242,8 @@
     }
   },
   "signal_counts": {
-    "bullish": 9,
-    "bearish": 22,
-    "neutral": 28
+    "bullish": 10,
+    "bearish": 20,
+    "neutral": 29
   }
 }
