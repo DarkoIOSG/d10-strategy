@@ -1,8 +1,8 @@
 {
-  "date": "2026-08-28",
-  "combo_score": -0.08101851851851853,
+  "date": "2026-08-29",
+  "combo_score": -0.09490740740740741,
   "exposure": 0.6,
-  "btc_price": 77400.203125,
+  "btc_price": 77670.7578125,
   "signals": {
     "MVRV": {
       "value": 0,
@@ -121,7 +121,7 @@
       "category": "Technical"
     },
     "Gold_90d": {
-      "value": -1,
+      "value": 0,
       "category": "Macro"
     },
     "HY_Spread": {
@@ -141,11 +141,11 @@
       "category": "Technical"
     },
     "MABreak_EMA_daily_30_90_180_365": {
-      "value": 0,
+      "value": -1,
       "category": "Technical"
     },
     "MABreak_EMA_daily_50_100_200_365": {
-      "value": 0,
+      "value": -1,
       "category": "Technical"
     },
     "MABreak_EMA_weekly_4_13_26_52": {
@@ -242,8 +242,8 @@
     }
   },
   "signal_counts": {
-    "bullish": 12,
+    "bullish": 13,
     "bearish": 21,
-    "neutral": 26
+    "neutral": 25
   }
 }
