@@ -1,8 +1,8 @@
 {
-  "date": "2026-08-29",
-  "combo_score": -0.09490740740740741,
+  "date": "2026-08-30",
+  "combo_score": -0.09953703703703705,
   "exposure": 0.6,
-  "btc_price": 77670.7578125,
+  "btc_price": 78686.328125,
   "signals": {
     "MVRV": {
       "value": 0,
@@ -17,11 +17,11 @@
       "category": "On-chain"
     },
     "STH_SOPR": {
-      "value": 1,
+      "value": 0,
       "category": "On-chain"
     },
     "LTH_SOPR": {
-      "value": -1,
+      "value": 0,
       "category": "On-chain"
     },
     "NVT": {
@@ -57,7 +57,7 @@
       "category": "On-chain"
     },
     "SOPR_Ratio": {
-      "value": -1,
+      "value": 0,
       "category": "On-chain"
     },
     "Dormancy": {
@@ -121,7 +121,7 @@
       "category": "Technical"
     },
     "Gold_90d": {
-      "value": 0,
+      "value": -1,
       "category": "Macro"
     },
     "HY_Spread": {
@@ -242,8 +242,8 @@
     }
   },
   "signal_counts": {
-    "bullish": 13,
-    "bearish": 21,
-    "neutral": 25
+    "bullish": 12,
+    "bearish": 20,
+    "neutral": 27
   }
 }
