@@ -1,8 +1,8 @@
 {
-  "date": "2026-08-30",
-  "combo_score": -0.09953703703703705,
+  "date": "2026-08-31",
+  "combo_score": -0.16203703703703703,
   "exposure": 0.6,
-  "btc_price": 78686.328125,
+  "btc_price": 78659.9921875,
   "signals": {
     "MVRV": {
       "value": 0,
@@ -129,7 +129,7 @@
       "category": "On-chain"
     },
     "MABreak_SMA_daily_30_90_180_365": {
-      "value": -1,
+      "value": 0,
       "category": "Technical"
     },
     "MABreak_SMA_daily_50_100_200_365": {
@@ -229,7 +229,7 @@
       "category": "Macro"
     },
     "SOFR_IORB_Spread_Sign": {
-      "value": -1,
+      "value": 0,
       "category": "Macro"
     },
     "RRP_Trend_90d": {
@@ -242,8 +242,8 @@
     }
   },
   "signal_counts": {
-    "bullish": 12,
+    "bullish": 10,
     "bearish": 20,
-    "neutral": 27
+    "neutral": 29
   }
 }
