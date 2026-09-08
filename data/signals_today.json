@@ -1,8 +1,8 @@
 {
-  "date": "2026-09-07",
-  "combo_score": 0.14910130718954248,
-  "exposure": 0.4,
-  "btc_price": 79374.390625,
+  "date": "2026-09-08",
+  "combo_score": -0.1597222222222222,
+  "exposure": 0.6,
+  "btc_price": 78380.71875,
   "signals": {
     "MVRV": {
       "value": 0,
@@ -109,7 +109,7 @@
       "category": "On-chain"
     },
     "VIX": {
-      "value": 1,
+      "value": 0,
       "category": "On-chain"
     },
     "DXY": {
@@ -229,7 +229,7 @@
       "category": "Macro"
     },
     "SOFR_IORB_Spread_Sign": {
-      "value": 1,
+      "value": 0,
       "category": "Macro"
     },
     "RRP_Trend_90d": {
@@ -243,7 +243,7 @@
   },
   "signal_counts": {
     "bullish": 7,
-    "bearish": 22,
-    "neutral": 30
+    "bearish": 20,
+    "neutral": 32
   }
 }
