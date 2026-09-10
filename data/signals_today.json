@@ -1,8 +1,8 @@
 {
-  "date": "2026-09-09",
-  "combo_score": -0.09490740740740741,
+  "date": "2026-09-10",
+  "combo_score": -0.08101851851851853,
   "exposure": 0.5,
-  "btc_price": 79518.890625,
+  "btc_price": 77183.03125,
   "signals": {
     "MVRV": {
       "value": 0,
@@ -21,7 +21,7 @@
       "category": "On-chain"
     },
     "LTH_SOPR": {
-      "value": 0,
+      "value": -1,
       "category": "On-chain"
     },
     "NVT": {
@@ -57,7 +57,7 @@
       "category": "On-chain"
     },
     "SOPR_Ratio": {
-      "value": 0,
+      "value": -1,
       "category": "On-chain"
     },
     "Dormancy": {
@@ -141,15 +141,15 @@
       "category": "Technical"
     },
     "MABreak_EMA_daily_30_90_180_365": {
-      "value": -1,
+      "value": 0,
       "category": "Technical"
     },
     "MABreak_EMA_daily_50_100_200_365": {
-      "value": -1,
+      "value": 0,
       "category": "Technical"
     },
     "MABreak_EMA_weekly_4_13_26_52": {
-      "value": 0,
+      "value": -1,
       "category": "Technical"
     },
     "Zscore_SMA50_daily": {
@@ -242,8 +242,8 @@
     }
   },
   "signal_counts": {
-    "bullish": 8,
+    "bullish": 9,
     "bearish": 18,
-    "neutral": 33
+    "neutral": 32
   }
 }
