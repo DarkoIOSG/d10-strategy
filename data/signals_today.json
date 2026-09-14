@@ -1,8 +1,8 @@
 {
-  "date": "2026-09-13",
-  "combo_score": -0.0625,
+  "date": "2026-09-14",
+  "combo_score": -0.0763888888888889,
   "exposure": 0.5,
-  "btc_price": 76661.78125,
+  "btc_price": 78405.0,
   "signals": {
     "MVRV": {
       "value": 0,
@@ -45,7 +45,7 @@
       "category": "On-chain"
     },
     "Whale_Ratio": {
-      "value": 0,
+      "value": 1,
       "category": "On-chain"
     },
     "MPI": {
@@ -65,7 +65,7 @@
       "category": "On-chain"
     },
     "Lev_Ratio": {
-      "value": 0,
+      "value": 1,
       "category": "On-chain"
     },
     "SSR": {
@@ -121,7 +121,7 @@
       "category": "Technical"
     },
     "Gold_90d": {
-      "value": 0,
+      "value": -1,
       "category": "Macro"
     },
     "HY_Spread": {
@@ -141,11 +141,11 @@
       "category": "Technical"
     },
     "MABreak_EMA_daily_30_90_180_365": {
-      "value": 0,
+      "value": -1,
       "category": "Technical"
     },
     "MABreak_EMA_daily_50_100_200_365": {
-      "value": 0,
+      "value": -1,
       "category": "Technical"
     },
     "MABreak_EMA_weekly_4_13_26_52": {
@@ -153,7 +153,7 @@
       "category": "Technical"
     },
     "Zscore_SMA50_daily": {
-      "value": 0,
+      "value": 1,
       "category": "Technical"
     },
     "Zscore_SMA90_daily": {
@@ -173,7 +173,7 @@
       "category": "Technical"
     },
     "Zscore_EMA50_daily": {
-      "value": 0,
+      "value": 1,
       "category": "Technical"
     },
     "Zscore_EMA90_daily": {
@@ -242,8 +242,8 @@
     }
   },
   "signal_counts": {
-    "bullish": 7,
-    "bearish": 17,
-    "neutral": 35
+    "bullish": 10,
+    "bearish": 21,
+    "neutral": 28
   }
 }
