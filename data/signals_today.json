@@ -1,23 +1,23 @@
 {
-  "date": "2026-09-23",
-  "combo_score": -0.10416666666666669,
+  "date": "2026-09-24",
+  "combo_score": -0.09490740740740743,
   "exposure": 0.5,
-  "btc_price": 85462.2890625,
+  "btc_price": 83696.8515625,
   "signals": {
     "MVRV": {
       "value": 0,
       "category": "On-chain"
     },
     "SOPR": {
-      "value": 1,
+      "value": 0,
       "category": "On-chain"
     },
     "SOPR_Adj": {
-      "value": 1,
+      "value": 0,
       "category": "On-chain"
     },
     "STH_SOPR": {
-      "value": 1,
+      "value": 0,
       "category": "On-chain"
     },
     "LTH_SOPR": {
@@ -61,11 +61,11 @@
       "category": "On-chain"
     },
     "Dormancy": {
-      "value": 1,
+      "value": 0,
       "category": "On-chain"
     },
     "Lev_Ratio": {
-      "value": 1,
+      "value": 0,
       "category": "On-chain"
     },
     "SSR": {
@@ -81,7 +81,7 @@
       "category": "On-chain"
     },
     "NRPL": {
-      "value": 1,
+      "value": 0,
       "category": "On-chain"
     },
     "MVRV_Proxy": {
@@ -109,7 +109,7 @@
       "category": "On-chain"
     },
     "VIX": {
-      "value": 1,
+      "value": 0,
       "category": "On-chain"
     },
     "DXY": {
@@ -125,7 +125,7 @@
       "category": "Macro"
     },
     "HY_Spread": {
-      "value": 1,
+      "value": 0,
       "category": "On-chain"
     },
     "MABreak_SMA_daily_30_90_180_365": {
@@ -243,7 +243,7 @@
   },
   "signal_counts": {
     "bullish": 13,
-    "bearish": 26,
-    "neutral": 20
+    "bearish": 18,
+    "neutral": 28
   }
 }
