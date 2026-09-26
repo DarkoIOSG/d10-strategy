@@ -1,8 +1,8 @@
 {
-  "date": "2026-09-25",
+  "date": "2026-09-26",
   "combo_score": -0.09490740740740743,
   "exposure": 0.5,
-  "btc_price": 84405.8125,
+  "btc_price": 84063.0,
   "signals": {
     "MVRV": {
       "value": 0,
@@ -41,15 +41,15 @@
       "category": "On-chain"
     },
     "Exch_Netflow": {
-      "value": -1,
+      "value": 0,
       "category": "On-chain"
     },
     "Whale_Ratio": {
-      "value": 0,
+      "value": 1,
       "category": "On-chain"
     },
     "MPI": {
-      "value": 0,
+      "value": 1,
       "category": "On-chain"
     },
     "Puell": {
@@ -242,8 +242,8 @@
     }
   },
   "signal_counts": {
-    "bullish": 13,
-    "bearish": 18,
-    "neutral": 28
+    "bullish": 12,
+    "bearish": 20,
+    "neutral": 27
   }
 }
