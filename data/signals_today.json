@@ -1,8 +1,8 @@
 {
-  "date": "2026-09-26",
+  "date": "2026-09-27",
   "combo_score": -0.09490740740740743,
   "exposure": 0.5,
-  "btc_price": 84063.0,
+  "btc_price": 84978.2578125,
   "signals": {
     "MVRV": {
       "value": 0,
@@ -29,7 +29,7 @@
       "category": "On-chain"
     },
     "NVM": {
-      "value": 0,
+      "value": 1,
       "category": "On-chain"
     },
     "S2F_Dev": {
@@ -49,7 +49,7 @@
       "category": "On-chain"
     },
     "MPI": {
-      "value": 1,
+      "value": -1,
       "category": "On-chain"
     },
     "Puell": {
@@ -61,7 +61,7 @@
       "category": "On-chain"
     },
     "Dormancy": {
-      "value": 0,
+      "value": -1,
       "category": "On-chain"
     },
     "Lev_Ratio": {
@@ -242,8 +242,8 @@
     }
   },
   "signal_counts": {
-    "bullish": 12,
+    "bullish": 14,
     "bearish": 20,
-    "neutral": 27
+    "neutral": 25
   }
 }
