@@ -1,8 +1,8 @@
 {
-  "date": "2026-09-27",
-  "combo_score": -0.09490740740740743,
+  "date": "2026-09-28",
+  "combo_score": -0.11574074074074076,
   "exposure": 0.5,
-  "btc_price": 84978.2578125,
+  "btc_price": 83918.609375,
   "signals": {
     "MVRV": {
       "value": 0,
@@ -25,7 +25,7 @@
       "category": "On-chain"
     },
     "NVT": {
-      "value": -1,
+      "value": 0,
       "category": "On-chain"
     },
     "NVM": {
@@ -49,7 +49,7 @@
       "category": "On-chain"
     },
     "MPI": {
-      "value": -1,
+      "value": 0,
       "category": "On-chain"
     },
     "Puell": {
@@ -109,7 +109,7 @@
       "category": "On-chain"
     },
     "VIX": {
-      "value": 1,
+      "value": 0,
       "category": "On-chain"
     },
     "DXY": {
@@ -229,7 +229,7 @@
       "category": "Macro"
     },
     "SOFR_IORB_Spread_Sign": {
-      "value": -1,
+      "value": 0,
       "category": "Macro"
     },
     "RRP_Trend_90d": {
@@ -242,8 +242,8 @@
     }
   },
   "signal_counts": {
-    "bullish": 14,
-    "bearish": 20,
-    "neutral": 25
+    "bullish": 11,
+    "bearish": 19,
+    "neutral": 29
   }
 }
