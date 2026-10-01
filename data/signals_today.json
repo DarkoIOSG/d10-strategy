@@ -1,8 +1,8 @@
 {
-  "date": "2026-09-30",
-  "combo_score": -0.0763888888888889,
+  "date": "2026-10-01",
+  "combo_score": -0.046296296296296294,
   "exposure": 0.5,
-  "btc_price": 83446.8125,
+  "btc_price": 84146.1484375,
   "signals": {
     "MVRV": {
       "value": 0,
@@ -21,7 +21,7 @@
       "category": "On-chain"
     },
     "LTH_SOPR": {
-      "value": 0,
+      "value": -1,
       "category": "On-chain"
     },
     "NVT": {
@@ -41,7 +41,7 @@
       "category": "On-chain"
     },
     "Exch_Netflow": {
-      "value": 0,
+      "value": -1,
       "category": "On-chain"
     },
     "Whale_Ratio": {
@@ -49,7 +49,7 @@
       "category": "On-chain"
     },
     "MPI": {
-      "value": 1,
+      "value": 0,
       "category": "On-chain"
     },
     "Puell": {
@@ -57,7 +57,7 @@
       "category": "On-chain"
     },
     "SOPR_Ratio": {
-      "value": 0,
+      "value": -1,
       "category": "On-chain"
     },
     "Dormancy": {
@@ -77,7 +77,7 @@
       "category": "On-chain"
     },
     "Coinbase_Prem": {
-      "value": 0,
+      "value": 1,
       "category": "On-chain"
     },
     "NRPL": {
@@ -85,7 +85,7 @@
       "category": "On-chain"
     },
     "MVRV_Proxy": {
-      "value": 0,
+      "value": 1,
       "category": "On-chain"
     },
     "Puell_Proxy": {
@@ -101,7 +101,7 @@
       "category": "On-chain"
     },
     "LR_1Y": {
-      "value": 0,
+      "value": -1,
       "category": "On-chain"
     },
     "LR_2Y_Z": {
@@ -229,7 +229,7 @@
       "category": "Macro"
     },
     "SOFR_IORB_Spread_Sign": {
-      "value": -1,
+      "value": 0,
       "category": "Macro"
     },
     "RRP_Trend_90d": {
@@ -242,8 +242,8 @@
     }
   },
   "signal_counts": {
-    "bullish": 11,
-    "bearish": 17,
-    "neutral": 31
+    "bullish": 14,
+    "bearish": 18,
+    "neutral": 27
   }
 }
